@@ -14,6 +14,7 @@
 - **TBC** For elimination phase-level items only the first displayed phase of the day should show time. But first displayed phase will change based on filtering - always show time on first one
 - Score to show is 'Set points' - standard Result/@Result attribute
 - Medallists follow head-to-head pattern (G & S together, B on different item)
+- Head-to-head winner highlight pattern
 - **TBC** All items bookmarkable
 
 ## Contextual Menu
