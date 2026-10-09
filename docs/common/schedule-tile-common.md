@@ -11,10 +11,11 @@ Shared rules for CIS / WMR schedule cards. Discipline packs add sport-specific s
 - [BSB](../BSB/schedule-tile-requirements.md)
 - [TRI](../TRI/schedule-tile-requirements.md) · [TRI FE results](../TRI/schedule-tile-fe-score.md)
 - [FEN](../FEN/schedule-tile-requirements.md)
+- [RCB](../RCB/schedule-tile-requirements.md)
 
 **Tile flavours:**
 - **H2H + score:** FBL, ARC, CKT, SQU, BSB, FEN  
-- **Event row + medallists after (no live score on tile):** CRD, CLB, TRI  
+- **Event row + medallists after (no live score on tile):** CRD, CLB, TRI, RCB  
 
 **API contract:** [SCDLA Schedule](https://dgplatform.atlassian.net/wiki/spaces/SCDLA/pages/3120988164/Schedule) — `{competitionCode}/schedule` (+ `schedulesPerDay/{YYYY-MM-DD}`), SSE + HTTP.
 

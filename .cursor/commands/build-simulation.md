@@ -66,9 +66,10 @@ Progress:
 - [ ] Timeline: schedule before → during → after → medallists → medals
 - [ ] Include all Schedule=S units from CC that appear in feed/pack
 - [ ] Pack edge cases into other events in the same simulation
-- [ ] Consistency gate: medals ↔ RESULT winners ↔ PARTIC/ENTRIES; DT_MEDALS scope = medallists in freeze
+- [ ] Consistency gate: DT_SCHEDULE shape (no `<Units>`); medals ↔ RESULT winners ↔ PARTIC/ENTRIES; DT_MEDALS scope = medallists in freeze
 - [ ] After-state win / situation payload present when pack requires it (not accidental NO RESULT)
 - [ ] Remap check: HideEndDate still Y/N; unique filename timestamps
+- [ ] DT_SCHEDULE structure gate: no invented `<Units>`; Unit/Session direct under Competition
 - [ ] Fabricate ONLY missing messages; list them
 - [ ] Validate fabricated with ODF verifier when possible
 - [ ] Write README.md + AC.feature
@@ -109,6 +110,13 @@ If NOT → HARD STOP (do not fabricate an entire discipline dump)
 - After remap, assert `HideEndDate` (and similar Y/N flags) are still `Y` or `N`.
 - Filename prefixes must be **unique** per file (no two messages sharing the same `HHMMSSmmm` — sort order then depends on type name and breaks playback).
 
+**DT_SCHEDULE structure (FEN lesson — mandatory):**
+
+- ODF has **no** `<Units>` wrapper. `Unit` (and optional `Session`) sit **directly under** `Competition`.
+- Never emit `<Competition><Units><Unit/>…</Units></Competition>` when fabricating / curating a schedule.
+- Copy Unit element shape from `rawData/{DISC}` schedule messages.
+- Before shipping: every freeze `DT_SCHEDULE[_UPDATE]` must have **zero** `<Units>` tags; first child of `Competition` is `Session` or `Unit`.
+
 ### 3. Bootstrap (required)
 
 | Condition | Messages (order) |
@@ -130,6 +138,14 @@ Stop-points in README so playback can pause at “before only” or “mid-live�
 ### 4b. Consistency gate (mandatory before README)
 
 Raw dumps often disagree across message types (later medallists flip, full-tournament `DT_MEDALS`, abandoned finals). **Do not ship a freeze with known mismatches.** Run this checklist and fix (prefer aligning to the RESULT of the unit in the freeze, or fabricate deliberately and list it).
+
+#### DT_SCHEDULE XML shape
+
+| Check | Rule |
+|-------|------|
+| No `<Units>` | Invented wrapper breaks BE parsers — **hard fail** if present |
+| Nesting | `Competition` → (`Session`)* → `Unit`+ (or `Unit` only). Match `rawData` for the discipline |
+| Curated FULL | When merging unit fragments into one message, keep the same child element names as raw ODF — do not add schema-like containers |
 
 #### Medals ↔ results ↔ teams
 
@@ -221,9 +237,10 @@ Also summarize: scenario path, LogicalDate, Schedule S units included, playback 
 
 - [ ] Gate 0 passed (rawData used)
 - [ ] ODFs copied then remapped (rawData untouched); HideEndDate/Y-N flags intact; unique timestamps
+- [ ] Every `DT_SCHEDULE[_UPDATE]` has no `<Units>`; Unit/Session direct under Competition
 - [ ] PARTIC (+ TEAMS + ENTRIES if teams)
 - [ ] Before / during / after through MEDALLISTS → MEDALS
-- [ ] **Consistency gate 4b passed** (medals ↔ results ↔ teams; win-situation payload if required)
+- [ ] **Consistency gate 4b passed** (schedule shape + medals ↔ results ↔ teams; win-situation payload if required)
 - [ ] Schedule=S units included when CC has them (0×S is OK — say so in README)
 - [ ] README + AC.feature written
 - [ ] Fabricated list printed (even if empty)

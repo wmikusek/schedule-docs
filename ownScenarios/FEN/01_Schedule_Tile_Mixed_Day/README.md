@@ -127,7 +127,7 @@ WMR: `/en/la28/results/unit/fenwteamsabr----------fnl-000100--`
 
 | Piece | Note |
 |-------|------|
-| Schedule v1 / v2 / v3 | Curated FULL messages (**18 units**; sessions FEN01 / FEN04 / FEN09). Not a raw single-file copy. |
+| Schedule v1 / v2 / v3 | Curated FULL messages (**18 units**; sessions FEN01 / FEN04 / FEN09). Not a raw single-file copy. `Unit` directly under `Competition` (no invented `<Units>` wrapper). |
 | `FENMSABRE…R32-000200/000300` shells | Cloned from R32-000100 **without StartList** (grouping only) |
 | Other WTEAMEPEE QF siblings without StartList | Cloned from QFNL000200 when harvest empty |
 | `DT_MEDALS` | **Fabricated** scoped to **MSABRE + WTEAMSABR** only. Raw full-tournament standings discarded. |

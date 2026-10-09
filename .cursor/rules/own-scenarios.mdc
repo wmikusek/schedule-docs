@@ -39,6 +39,32 @@ Cover before / during / after through medals. Include **Schedule=S** units from 
 - Keep competitor / team codes consistent with PARTIC
 - Always list fabricated files in the final reply (or `(none)`)
 - Validate fabricated XML with ODF verifier when practical
+- When assembling a curated `DT_SCHEDULE[_UPDATE]`, **copy Unit XML shape from `rawData`** — do not invent wrapper elements
+
+## DT_SCHEDULE structure (mandatory gate — FEN lesson)
+
+ODF schedule messages do **not** wrap units in `<Units>`. Valid shapes (see any `rawData/*/…DT_SCHEDULE*`):
+
+```xml
+<!-- FULL / multi-unit: Session then Unit, or Unit only -->
+<Competition …>
+  <Session …/>          <!-- optional -->
+  <Unit Code="…">…</Unit>
+  <Unit Code="…">…</Unit>
+</Competition>
+```
+
+**Forbidden (breaks BE):** inventing `<Competition><Units><Unit/>…</Units></Competition>`.
+
+Before README / final reply, **validate every** `DT_SCHEDULE` / `DT_SCHEDULE_UPDATE` in the freeze folder:
+
+1. **No `<Units>` / `</Units>`** anywhere in the file.
+2. **First competition child** is `Session` or `Unit` (never `Units`).
+3. At least one `<Unit Code="…">` is present when the message is meant to carry units.
+4. Compare curated schedule to a sibling from `rawData/{DISC}` if unsure — match element nesting, do not “normalize” to a made-up schema.
+5. Remap safety still applies: never blanket-replace dates (`HideEndDate="Y"` → datetime); after remap assert `HideEndDate` / `HideStartDate` / `HideUnitNum` ∈ {`Y`,`N`}.
+
+Fail the build (fix the XML) if any of 1–3 fail — do not ship.
 
 ## Consistency (do not ship mismatches)
 
@@ -49,3 +75,4 @@ Raw dumps lie across messages — **fix before README**:
 3. **After-state situation text** — if the pack needs a win sentence (`finalResultDescription`), OFFICIAL RESULT must carry a real win payload (`WON_*` + extensions), not an accidental `NO RESULT`.
 4. **Same team/athlete ids** across SCHEDULE StartList ↔ RESULT ↔ MEDALLISTS ↔ ENTRIES ↔ PARTIC_TEAMS.
 5. **Date remap** — do not blanket-replace dates (corrupts `HideEndDate="Y"`). Keep filename timestamps unique.
+6. **`DT_SCHEDULE` structure** — § above (no invented `<Units>` wrapper).
