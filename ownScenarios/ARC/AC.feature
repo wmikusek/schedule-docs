@@ -68,3 +68,38 @@ Feature: ARC schedule tiles on a mixed freeze day
     When the user clicks any listed tile that has no RSC override
     Then the href is the unit-results URL for that tile RSC
     And the href does not change between before, during and after
+
+Feature: ARC All_Events freeze (Compound Mixed + Men Individual through finals)
+  Background:
+    Given competition OG2028-ITL
+    And the ARC messages in ownScenarios/ARC/All_Events have been ingested in filename order
+    And ODF bodies keep ITL competition dates (July 2028); filename prefixes are playback order only
+
+  Scenario: Bootstrap loads only the two event entries
+    When bootstrap messages are ingested
+    Then DT_PARTIC_UPDATE and DT_PARTIC_TEAMS_UPDATE are loaded
+    And DT_ENTRIES exist for ARCMINDIVID and ARCXTEAMC only
+    And the initial DT_SCHEDULE_UPDATE contains the full ARC unit shell
+
+  Scenario: No LIVE results are ingested
+    When full All_Events ingest is complete
+    Then no DT_RESULT has ResultStatus LIVE
+
+  Scenario: Compound Mixed QUAL is Schedule S
+    When the schedule feed includes ARCXTEAMC QUAL000100
+    Then that unit may be hidden on the default daily list and shown under By Event
+
+  Scenario: Compound Mixed finishes with medallists then medals
+    When ingest has passed Compound Mixed gold OFFICIAL and DT_MEDALLISTS for ARCXTEAMC
+    Then the next DT_MEDALS LastEvent is ARCXTEAMC with FinishedEvents 1
+    And medallists are MEX gold IND silver GBR bronze
+
+  Scenario: Men Individual finishes through gold
+    When full All_Events ingest is complete
+    Then OFFICIAL DT_RESULT exists for ARCMINDIVID FNL-000100 and FNL-000200
+    And DT_MEDALLISTS for ARCMINDIVID lists TUR gold COL silver ITA bronze
+    And the final DT_MEDALS covers only ARCXTEAMC and ARCMINDIVID
+
+  Scenario: Medal matches are not grouped
+    When tiles are grouped by event for match rounds
+    Then ARCXTEAMC and ARCMINDIVID FNL units are not placed in elimination groups

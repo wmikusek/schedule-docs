@@ -1,9 +1,8 @@
 Discipline,Gender,Event,Phase,Unit,Enabled,GroupId,GroupSubTitle,GroupType
 ARC,*,*,FNL-,*,TRUE,,,
-ARC,*,*,*,*,TRUE,{Session}_{EventRSC},{Event},event
-BDM,*,*,*,*,TRUE,{Session},{Phase},discipline
-BKG,*,*,GPA-,*,TRUE,{Session},{Phase},discipline
-BKG,*,*,GPB-,*,TRUE,{Session},{Phase},discipline
+ARC,M,*,*,*,TRUE,{Session}_{EventRSC}_M,{Event},event
+ARC,W,*,*,*,TRUE,{Session}_{EventRSC}_W,{Event},event
+ARC,X,*,*,*,TRUE,{Session}_{EventRSC}_X,{Event},event
 BKG,*,*,GPC-,*,TRUE,{Session},{Phase},discipline
 BKG,*,*,GPD-,*,TRUE,{Session},{Phase},discipline
 BMX,*,*,*,*,TRUE,{Session}_{PhaseRSC},{Phase},phase

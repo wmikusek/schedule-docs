@@ -1,3 +1,12 @@
+# ARC — Schedule tile freezes
+
+| Folder | Role |
+|--------|------|
+| [`01_Schedule_Tile_Mixed_Day`](01_Schedule_Tile_Mixed_Day) | Curated mixed day (live gold, medals, Schedule=S) — walkthrough below |
+| [`All_Events`](All_Events) | Mega freeze: **Compound Mixed + Men’s Individual** through finals (no LIVE/PDF) — see [All_Events/README.md](All_Events/README.md) |
+
+---
+
 # ARC — Schedule tile freeze (mixed day)
 
 **LogicalDate:** `2026-09-09` (same day as FBL `01_Schedule_Tile_Mid_Group` and CLB `01_Schedule_Tile_Mixed_Day`)  
