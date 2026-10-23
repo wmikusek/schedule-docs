@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBMLEAD--------------SFNL000100--" DocumentType="DT_CONFIG" Version="1" FeedFlag="T" TimeStamp="2026-06-23T09:41:47.982+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<Configs>
+			<Config Unit="CLBMLEAD--------------SFNL000100--">
+				<ExtendedConfig Type="QUALIFICATION" Code="QUAL_RULE" Value="PT8^F" />
+				<ExtendedConfig Type="QUALIFICATION" Code="FROM_RANK" Value="1" />
+				<ExtendedConfig Type="QUALIFICATION" Code="TO_RANK" Value="8" />
+			</Config>
+		</Configs>
+	</Competition>
+</OdfBody>

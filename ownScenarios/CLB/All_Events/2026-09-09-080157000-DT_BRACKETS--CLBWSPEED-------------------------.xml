@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBWSPEED-------------------------" DocumentType="DT_BRACKETS" ResultStatus="START_LIST" Version="2" FeedFlag="T" TimeStamp="2026-06-23T15:48:15.431+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<Progress UnitsTotal="8" UnitsComplete="0" />
+			<SportDescription DisciplineName="Climbing" EventName="Women's Speed" Gender="W" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" />
+		</ExtendedInfos>
+		<Bracket Code="FNL">
+			<BracketItems Code="FNL-">
+				<BracketItem Code="CLBWSPEED-------------FNL-000100--" Order="1" Date="2028-07-26" Time="10:17" TimeStamp="2028-07-26T10:17:00+02:00" Position="1">
+					<CompetitorPlace Pos="1" Code="TBD">
+						<PreviousUnit Unit="CLBWSPEED-------------SFNL000100--" WLT="W" />
+					</CompetitorPlace>
+					<CompetitorPlace Pos="2" Code="TBD">
+						<PreviousUnit Unit="CLBWSPEED-------------SFNL000200--" WLT="W" />
+					</CompetitorPlace>
+				</BracketItem>
+				<BracketItem Code="CLBWSPEED-------------FNL-000200--" Order="2" Date="2028-07-26" Time="10:15" TimeStamp="2028-07-26T10:15:00+02:00" Position="2">
+					<CompetitorPlace Pos="1" Code="TBD">
+						<PreviousUnit Unit="CLBWSPEED-------------SFNL000100--" WLT="L" />
+					</CompetitorPlace>
+					<CompetitorPlace Pos="2" Code="TBD">
+						<PreviousUnit Unit="CLBWSPEED-------------SFNL000200--" WLT="L" />
+					</CompetitorPlace>
+				</BracketItem>
+			</BracketItems>
+			<BracketItems Code="SFNL">
+				<BracketItem Code="CLBWSPEED-------------SFNL000100--" Order="1" Date="2028-07-26" Time="09:45" TimeStamp="2028-07-26T09:45:00+02:00" Position="1">
+					<CompetitorPlace Pos="1" Code="TBD">
+						<PreviousUnit Unit="CLBWSPEED-------------QFNL000100--" WLT="W" />
+					</CompetitorPlace>
+					<CompetitorPlace Pos="2" Code="TBD">
+						<PreviousUnit Unit="CLBWSPEED-------------QFNL000200--" WLT="W" />
+					</CompetitorPlace>
+				</BracketItem>
+				<BracketItem Code="CLBWSPEED-------------SFNL000200--" Order="2" Date="2028-07-26" Time="09:47" TimeStamp="2028-07-26T09:47:00+02:00" Position="2">
+					<CompetitorPlace Pos="1" Code="TBD">
+						<PreviousUnit Unit="CLBWSPEED-------------QFNL000300--" WLT="W" />
+					</CompetitorPlace>
+					<CompetitorPlace Pos="2" Code="TBD">
+						<PreviousUnit Unit="CLBWSPEED-------------QFNL000400--" WLT="W" />
+					</CompetitorPlace>
+				</BracketItem>
+			</BracketItems>
+			<BracketItems Code="QFNL">
+				<BracketItem Code="CLBWSPEED-------------QFNL000100--" Order="1" Date="2028-07-26" Time="09:15" TimeStamp="2028-07-26T09:15:00+02:00" Position="1">
+					<CompetitorPlace Pos="1">
+						<Competitor Code="9103918" Type="A" Organisation="ESP">
+							<Composition>
+								<Athlete Code="9103918" Order="1">
+									<Description GivenName="Leslie Adriana" FamilyName="Romero Perez" Gender="F" Organisation="ESP" BirthDate="1998-03-18" />
+								</Athlete>
+							</Composition>
+						</Competitor>
+					</CompetitorPlace>
+					<CompetitorPlace Pos="2">
+						<Competitor Code="9103327" Type="A" Organisation="POL">
+							<Composition>
+								<Athlete Code="9103327" Order="1">
+									<Description GivenName="Aleksandra" FamilyName="Miroslaw" Gender="F" Organisation="POL" BirthDate="1994-02-02" />
+								</Athlete>
+							</Composition>
+						</Competitor>
+					</CompetitorPlace>
+				</BracketItem>
+				<BracketItem Code="CLBWSPEED-------------QFNL000200--" Order="2" Date="2028-07-26" Time="09:17" TimeStamp="2028-07-26T09:17:00+02:00" Position="2">
+					<CompetitorPlace Pos="1">
+						<Competitor Code="9102695" Type="A" Organisation="ITA">
+							<Composition>
+								<Athlete Code="9102695" Order="1">
+									<Description GivenName="Beatrice" FamilyName="Colli" Gender="F" Organisation="ITA" BirthDate="2004-10-10" />
+								</Athlete>
+							</Composition>
+						</Competitor>
+					</CompetitorPlace>
+					<CompetitorPlace Pos="2">
+						<Competitor Code="9100962" Type="A" Organisation="NZL">
+							<Composition>
+								<Athlete Code="9100962" Order="1">
+									<Description GivenName="Sarah" FamilyName="Tetzlaff" Gender="F" Organisation="NZL" BirthDate="2000-04-18" />
+								</Athlete>
+							</Composition>
+						</Competitor>
+					</CompetitorPlace>
+				</BracketItem>
+				<BracketItem Code="CLBWSPEED-------------QFNL000300--" Order="3" Date="2028-07-26" Time="09:19" TimeStamp="2028-07-26T09:19:00+02:00" Position="3">
+					<CompetitorPlace Pos="1">
+						<Competitor Code="9103321" Type="A" Organisation="POL">
+							<Composition>
+								<Athlete Code="9103321" Order="1">
+									<Description GivenName="Aleksandra" FamilyName="Kalucka" Gender="F" Organisation="POL" BirthDate="2001-12-25" />
+								</Athlete>
+							</Composition>
+						</Competitor>
+					</CompetitorPlace>
+					<CompetitorPlace Pos="2">
+						<Competitor Code="9103700" Type="A" Organisation="CHN">
+							<Composition>
+								<Athlete Code="9103700" Order="1">
+									<Description GivenName="Yafei" FamilyName="Zhou" Gender="F" Organisation="CHN" BirthDate="2004-05-15" />
+								</Athlete>
+							</Composition>
+						</Competitor>
+					</CompetitorPlace>
+				</BracketItem>
+				<BracketItem Code="CLBWSPEED-------------QFNL000400--" Order="4" Date="2028-07-26" Time="09:21" TimeStamp="2028-07-26T09:21:00+02:00" Position="4">
+					<CompetitorPlace Pos="1">
+						<Competitor Code="9103688" Type="A" Organisation="FRA">
+							<Composition>
+								<Athlete Code="9103688" Order="1">
+									<Description GivenName="Manon" FamilyName="Lebon" Gender="F" Organisation="FRA" BirthDate="2005-03-14" />
+								</Athlete>
+							</Composition>
+						</Competitor>
+					</CompetitorPlace>
+					<CompetitorPlace Pos="2">
+						<Competitor Code="9100306" Type="A" Organisation="USA">
+							<Composition>
+								<Athlete Code="9100306" Order="1">
+									<Description GivenName="Piper" FamilyName="Kelly" Gender="F" Organisation="USA" BirthDate="1999-10-03" />
+								</Athlete>
+							</Composition>
+						</Competitor>
+					</CompetitorPlace>
+				</BracketItem>
+			</BracketItems>
+		</Bracket>
+	</Competition>
+</OdfBody>

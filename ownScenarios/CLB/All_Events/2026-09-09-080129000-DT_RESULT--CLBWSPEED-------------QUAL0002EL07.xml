@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBWSPEED-------------QUAL0002EL07" DocumentType="DT_RESULT" ResultStatus="START_LIST" Version="1" FeedFlag="T" TimeStamp="2026-06-23T15:04:55.195+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<SportDescription DisciplineName="Climbing" EventName="Women's Speed" Gender="W" SubEventName="Qualification - Elimination heats" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result SortOrder="1" StartOrder="1" StartSortOrder="1">
+			<Competitor Code="9102695" Type="A" Organisation="ITA">
+				<Composition>
+					<Athlete Order="1" Code="9102695" Bib="4">
+						<Description GivenName="Beatrice" FamilyName="Colli" Gender="F" Organisation="ITA" BirthDate="2004-10-10" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="2" StartOrder="2" StartSortOrder="2">
+			<Competitor Code="9100305" Type="A" Organisation="USA">
+				<Composition>
+					<Athlete Order="1" Code="9100305" Bib="6">
+						<Description GivenName="Emma" FamilyName="Hunt" Gender="F" Organisation="USA" BirthDate="2003-04-01" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

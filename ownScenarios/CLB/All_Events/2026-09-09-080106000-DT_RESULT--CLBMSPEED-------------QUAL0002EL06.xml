@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBMSPEED-------------QUAL0002EL06" DocumentType="DT_RESULT" ResultStatus="OFFICIAL" Version="9" FeedFlag="T" TimeStamp="2026-06-23T14:08:12.084+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<UnitDateTime StartDate="2026-06-23T14:01:41+02:00" />
+			<SportDescription DisciplineName="Climbing" EventName="Men's Speed" Gender="M" SubEventName="Qualification - Elimination heats" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result IRM="DSQ" SortOrder="1" StartOrder="1" StartSortOrder="1" ResultType="IRM" WLT="L">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.13" />
+			</ExtendedResults>
+			<Competitor Code="9106056" Type="A" Organisation="UKR">
+				<Composition>
+					<Athlete Order="1" Code="9106056" Bib="1">
+						<Description GivenName="Yaroslav" FamilyName="Tkach" Gender="M" Organisation="UKR" BirthDate="2001-10-31" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Result="7.702" SortOrder="2" StartOrder="2" StartSortOrder="2" ResultType="TIME" WLT="W" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.17" />
+			</ExtendedResults>
+			<Competitor Code="9103699" Type="A" Organisation="CHN">
+				<Composition>
+					<Athlete Order="1" Code="9103699" Bib="9">
+						<Description GivenName="Peng" FamilyName="Wu" Gender="M" Organisation="CHN" BirthDate="2002-10-15" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

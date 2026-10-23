@@ -15,13 +15,16 @@
 |-------|----------------|
 | Competitors | Teams (`Type=T`) |
 | Live progress | Current **innings** (+ over) → `liveCurrentProgress` (§3.2) |
-| Score | Runs/wickets `nnn/n` (+ overs); **Yet to bat** (`YTB`) for side not batting |
+| Score | Runs/wickets `nnn/n` (+ overs); **`YTB` only in IN1** for the side yet to bat — **never** before start / never both sides |
+| Toss | Raw `competitors[].toss` = `BAT` \| `FIELD` **only during IN1** on the toss winner (§3.4) |
+| Super Over | Separate `soResult` on each competitor; first SO → `periodCode: "SO"`, later → `"SO2"`… (§3.4b) |
 | After text | Interpolated sentence from `UI/FINAL_RESULT` → `extendedResultInfo.finalResultDescription` (§3.3) |
 | `resultDecision` | **Not primary** — use FINAL_RESULT / ResultDesc instead of FBL-style RES_CODE |
 | Placeholders | `TBD`, `ROUND2_R1`…`R4`, `NOCOMP` (`SC@CompetitorPlace`) |
 | Group label | Group stage: event name like “Women's Group A” |
 | Grouping | N/A (OSRP) |
 | Interrupt outcomes | May finish as **No Result** / **Abandoned** (ORIS) |
+| Ticket | [DRES-33389](https://dgplatform.atlassian.net/jira/browse/DRES-33389) (schedules enrichment; contract below supersedes earlier “toss only pre-start” draft) |
 
 ---
 
@@ -34,26 +37,32 @@
 - Opponents confirmed: NOC + team name.
 - Not confirmed: **`TBD`** or **Stage 2 Rank n** (codes → SC Description, §3.5).
 - No “Scheduled” badge; medal marker when applicable.
+- **No scores, no `YTB`, no `toss`, no `soResult`** — even after the coin toss in ODF (`START_LIST`). Do not render two empty / YTB score cells.
 
 ### 2.2 During
 
 - Live highlight.
-- Batting side: live score `nnn/n` (overs as `(n.n)` / `(nn)` per OSRP format).
-- Side not yet batted: text **Yet to bat** (ODF `YTB` / `SC@ResultMark`).
-- First innings only: Match info line **“First innings: {Team} elected to bat/field”** from `ER/TOSS` (§3.4) — not from `UI/BATTING`.
+- **1st innings (`PERIOD=IN1`):**
+  - One side: live score `nnn/n (overs)`.
+  - Other side: **`YTB`** (Yet to bat).
+  - Toss winner exposes raw `toss: "BAT" | "FIELD"` (§3.4). FE may compose Match info *“First innings: {Team} elected to bat/field”* from that competitor’s `toss` + team name.
+  - Consistency: `BAT` → toss winner is batting (has the score); `FIELD` → toss winner has `YTB` (other side batting).
+- **2nd innings (`PERIOD=IN2`):** both sides show innings scores; **no `toss`**, **no `YTB`**.
+- **Super Over:** keep main innings in `result.result`; SO line via `soResult` (§3.4b). First SO label = `SO` (not `SO1`); second+ = `SO2`, `SO3`, …
 - Optional progress: current innings (and over) via `liveCurrentProgress`.
 
 ### 2.3 After
 
 - Winner indicated (`WLT`).
-- Scores for both sides (incl. Super Over line when played).
+- Scores for both sides (incl. Super Over line when played — same `soResult` rules, latest SO only).
 - **Match situation** sentence, e.g.  
   `India beat Pakistan by 9 wickets` / `… by 44 runs` / `… in Super Over` / `Match Abandoned` / `No Result`.
 - Medal symbol on medal matches.
+- No `toss`.
 
-### 2.4 Score formats (OSRP)
+### 2.4 Score formats (OSRP / schedules API)
 
-Regular:
+Regular (IN2 / after without SO):
 
 ```
 Team Name        nnn/n (n.n or nn)
@@ -61,13 +70,23 @@ Team Name        nnn/n (n.n or nn)
 Match situation text
 ```
 
-Super Over:
+First Super Over (`soResult.periodCode = "SO"`) — FE sketch (omit SO line when `score` is `YTB`):
 
 ```
-Team Name        nnn/n (…) SO n/n (…)
-Team Name        nnn/n (…) SO n/n (…)
-Match situation text
+Team Name        nnn/n (…)
+                  SO 7/0 (1)
+Team Name        nnn/n (…)
 ```
+
+Second+ Super Over (`periodCode = "SO2"` …) — same rule; BE exposes **latest SO only**:
+
+```
+Team Name        nnn/n (…)
+                  SO2 7/0 (1)
+Team Name        nnn/n (…)
+```
+
+BE may still send `soResult.score = "YTB"` for the side yet to face that SO — **FE does not render** an SO line for that row. FE may strip a trailing `1` if BE still sends `SO1` — confirm against scoreboard whether BE normalises first SO to `"SO"` (§3.4b open point).
 
 ### 2.5 Exceptional (ORIS)
 
@@ -167,43 +186,52 @@ API  extendedResultInfo.finalResultDescription
 
 Populate from **UNOFFICIAL** onward (ODF); clear or omit before match end.
 
-### 3.4 During extras — Yet to bat / toss (elected line)
+### 3.4 Schedules competitor enrichment — score / YTB / toss
 
-| UI | ODF |
-|----|-----|
-| Score `128/5` | `Result/@Result` (`ResultType=SCORE`) and/or `Periods/Period` scores |
-| **Yet to bat** | `Result` with `IRM`/`ResultMark` **YTB**, or period `HomeScore`/`AwayScore` = `YTB` |
-| **Elected to bat/field** | `Result/ExtendedResults/ExtendedResult[@Type='ER'][@Code='TOSS']` — see below |
+CKT-only fields on schedules / schedulesPerDay competitors (see also [DRES-33389](https://dgplatform.atlassian.net/jira/browse/DRES-33389)).
 
-FE may show `YTB` as the OSRP phrase **Yet to bat** (SC Description).
+#### `result.result` (overs)
 
-#### First-innings Match info — “elected to bat/field”
+1. Base = `unit_competitor_results.result` / ODF `@Result` (or ResultMark).
+2. If value is a numeric score and batting extended stat `BATTING`/`NO` exists for a **non-SO** period → append overs: `148/9 (10.1)`.
+3. Pass through all-out forms (`148/10`) — do not strip `/10`.
+4. Non-CKT: unchanged.
 
-Product copy (OSRP / summary):  
-`First innings: {Toss winning team name} elected to {bat|field}`
+#### `YTB` gate
 
-This is **composed by BE** (not a single ODF string). Do **not** use `UI/BATTING` for the team name — that code is the side currently batting, which can differ from the toss winner (e.g. toss winner elects to field).
+| Phase | `result.result` |
+|-------|-----------------|
+| Before start (SCHEDULED / START_LIST / no LIVE innings) | **Omit** scores — do **not** emit `YTB` on either side |
+| LIVE `PERIOD=IN1` | Batting side = score (+ overs); other side = `YTB` |
+| LIVE `PERIOD=IN2` / finished (no incomplete chase edge) | Both sides = innings scores; **no `YTB`** |
+| Super Over (one side yet to face SO) | Main innings scores stay in `result.result`; SO-side `YTB` goes in **`soResult.score`**, not as a fake second innings YTB |
+
+Never show two `YTB` cells. Before the match there is simply **no** result payload.
+
+#### `toss` gate (`BAT` \| `FIELD`)
+
+ODF: `ER/TOSS` only on the toss-winning `Result` (`SC@Toss`).
+
+| When | API |
+|------|-----|
+| Before start | **`toss` omitted** (even if ODF already has TOSS) |
+| LIVE + `UI/PERIOD = IN1` | Emit `toss` on the toss-winning competitor only |
+| LIVE + `PERIOD = IN2` / SO* / finished | **`toss` omitted** |
+
+Do **not** return a BE-translated elected sentence for schedules — FE builds copy from `toss` + that competitor’s `teamNames` / organisation when needed.
+
+**IN1 consistency with decision:**
+
+| `toss` | Toss-winner `result.result` | Other side |
+|--------|----------------------------|------------|
+| `BAT` | Score (they bat first) | `YTB` |
+| `FIELD` | `YTB` (they field first) | Score |
 
 ```
 DT_RESULT  Result[…]/ExtendedResults/ExtendedResult[@Type='ER'][@Code='TOSS']
-           — Element expected: after the toss, only on the Result of the team that won the toss
-           @Value = SC@Toss Code   (BAT | FIELD)
-        │
-        ▼
-Team name  ← Competitor on that same Result (DT_PARTIC_TEAMS / Description)
-Verb       ← SC@Toss: BAT → "bat", FIELD → "field"
-Gate       ← UI/PERIOD @Value == IN1   (first innings only; hide once PERIOD moves to IN2 / SO*)
-        │
-        ▼
-API        match-info / elected line (or agreed field)
-           = "First innings: India elected to bat"
+           @Value = BAT | FIELD   (only on toss winner)
+           Gate to expose on schedules API: PERIOD == IN1
 ```
-
-| Part | Source | Notes |
-|------|--------|--------|
-| Toss-winning team | Parent `Result/Competitor` of `ER/TOSS` | ODF sends `TOSS` only for the winner of the toss |
-| `bat` / `field` | `ExtendedResult[@Code='TOSS']/@Value` → **SC@Toss** | `BAT` = “Won the toss and elected to bat”; `FIELD` = “… elected to field” |
-| Show only in 1st innings | `ExtendedInfo[@Type='UI'][@Code='PERIOD']/@Value` = `IN1` | Clear / omit when `PERIOD` ≠ `IN1` (or when match finished → use §3.3 instead) |
 
 #### `SC@Toss` (CKT)
 
@@ -212,23 +240,112 @@ API        match-info / elected line (or agreed field)
 | `BAT` | Won the toss and elected to bat |
 | `FIELD` | Won the toss and elected to field |
 
-**Invalid:** free text (`"BOWL"`, `"bat"`, …). Only `BAT` / `FIELD`.
+**Invalid:** free text (`"BOWL"`, `"bat"`, …). Only `BAT` / `FIELD`. Map invalid `BOWL` → `FIELD` if still seen in feeds.
 
-#### Worked example
+#### Example fragments (schedules)
 
-```xml
-<Result …>
-  <Competitor Code="CKTMT20---------------IND01" Type="T" Organisation="IND">…</Competitor>
-  <ExtendedResults>
-    <ExtendedResult Type="ER" Code="TOSS" Value="BAT"/>
-  </ExtendedResults>
-</Result>
-<!-- UI/PERIOD Value="IN1" -->
+**Pre-start (after toss in ODF — still no scores / toss in API):**
+
+```json
+{
+  "competitors": [
+    { "code": "...IND01", "teamNames": { "name": "India" } },
+    { "code": "...AUS01", "teamNames": { "name": "Australia" } }
+  ]
+}
 ```
 
-→ **`First innings: India elected to bat`**.
+**LIVE IN1 — elected to bat:**
 
-`TOSS Value="FIELD"` + same gate → **`First innings: India elected to field`**.
+```json
+{
+  "competitors": [
+    { "code": "...IND01", "toss": "BAT", "result": { "result": "148/9 (10.1)" } },
+    { "code": "...AUS01", "result": { "result": "YTB" } }
+  ]
+}
+```
+
+**LIVE IN1 — elected to field:**
+
+```json
+{
+  "competitors": [
+    { "code": "...IND01", "result": { "result": "148/9 (10.1)" } },
+    { "code": "...AUS01", "toss": "FIELD", "result": { "result": "YTB" } }
+  ]
+}
+```
+
+**LIVE IN2 — no toss:**
+
+```json
+{
+  "competitors": [
+    { "code": "...IND01", "result": { "result": "148/9 (20.0)" } },
+    { "code": "...AUS01", "result": { "result": "123/8 (18.2)" } }
+  ]
+}
+```
+
+### 3.4b `soResult` — Super Over (latest only)
+
+Separate field so FE can render SO on its **own line** (not concatenated into `result.result`).
+
+| Rule | Behaviour |
+|------|-----------|
+| Source | Last `Periods/Period` whose `Code` starts with `SO` (`SO1IN1`, `SO1IN2`, `SO2IN1`, …) |
+| Scope | Same `periodCode` on **both** competitors when an SO is active |
+| Score | That period’s Home/Away score for the competitor; may be `YTB`; append SO overs from `BATTING`/`NO` with `pos` = that period when present |
+| Latest only | If SO1 tied and match is in SO2, expose **SO2** scores — do **not** surface SO1 in `soResult` even though ODF still has SO1 rows |
+| Absent | No SO period → omit `soResult` |
+| FE display | Show SO second line **only when `score` is not `YTB`** (e.g. `SO 7/0 (1)`). YTB in `soResult` → no SO line on that row. |
+
+#### `periodCode` normalisation
+
+| Super Over series | API `soResult.periodCode` |
+|-------------------|---------------------------|
+| First (`SO1…` in ODF) | **`SO`** (no `1`) |
+| Second (`SO2…`) | **`SO2`** |
+| Third+ | **`SO3`** … |
+
+**Open product / scoreboard check:** if scheduleItems / scoreboard already emit `SO1` for the first Super Over, either BE schedules override to `"SO"` for parity with the tile, **or** FE strips the trailing `1` when rendering. Prefer BE `"SO"` once confirmed.
+
+#### Examples
+
+**First Super Over:**
+
+```json
+{
+  "competitors": [
+    {
+      "result": { "result": "148/9 (20.0)" },
+      "soResult": { "periodCode": "SO", "score": "12/0 (1.4)" }
+    },
+    {
+      "result": { "result": "146/9 (20.0)" },
+      "soResult": { "periodCode": "SO", "score": "YTB" }
+    }
+  ]
+}
+```
+
+**Second (or later) Super Over:**
+
+```json
+{
+  "competitors": [
+    {
+      "result": { "result": "148/9 (20.0)" },
+      "soResult": { "periodCode": "SO2", "score": "12/0 (1.4)" }
+    },
+    {
+      "result": { "result": "146/9 (20.0)" },
+      "soResult": { "periodCode": "SO2", "score": "YTB" }
+    }
+  ]
+}
+```
 
 ### 3.5 Placeholder opponents
 
@@ -254,12 +371,14 @@ Follow [common §3.4](../common/schedule-tile-common.md) when `HideStartDate=Y`.
 
 Shared plus:
 
-- [ ] Scores as runs/wickets; map `YTB` → Yet to bat  
+- [ ] Before start: no `result` / no `YTB` / no `toss` / no `soResult`  
+- [ ] `result.result` = runs/wickets + overs (`BATTING`/`NO`); pass through `/10`  
+- [ ] `YTB` only for the non-batting side in **IN1** (never both sides)  
+- [ ] `toss` raw `BAT`\|`FIELD` only when `PERIOD=IN1`; omit in IN2 / SO / after / before  
+- [ ] `soResult` = latest SO only; `periodCode` `SO` then `SO2`… (§3.4b)  
 - [ ] `liveCurrentProgress` from `UI/PERIOD` (+ optional OVER)  
-- [ ] First-innings elected line from `ER/TOSS` + Competitor + `PERIOD=IN1` (§3.4)  
 - [ ] `finalResultDescription` interpolated from `SC@ResultDesc` + PH_TEAM + SCORE  
 - [ ] Placeholders `TBD` / `ROUND2_R*` via CompetitorPlace Description  
-- [ ] Super Over scores available when PERIOD/SO* present  
 - [ ] Abandoned / No Result / default templates supported  
 
 ---
@@ -270,11 +389,16 @@ Shared layout plus (detail: [schedule-tile-fe-component.md](./schedule-tile-fe-c
 
 | Phase | FE |
 |-------|-----|
-| Before | Placeholders as BE `name` (`TBD`, `Second Round Rank n`) |
-| During | Live score; **Yet to bat** for non-batting side; optional innings progress; first-innings elected line from BE (§3.4) |
-| After | Both scores (+ SO line); winner; **`finalResultDescription`** as match-situation line; medal icon |
+| Before | Teams / placeholders only; **empty score column** (ignore any residual YTB) |
+| During IN1 | Score + `YTB`; optional Match info from `competitors[].toss` + team name; `liveCurrentProgress` |
+| During IN2 | Both scores; **hide** toss / elected line |
+| During / after SO | Main score from `result.result`; second line from `soResult` **only when score ≠ `YTB`** (e.g. `SO 7/0 (1)`); latest SO only |
+| After | Both scores (+ SO if scored); winner; **`finalResultDescription`** as match-situation line; medal icon |
 
-Do not invent the situation sentence on FE — render `extendedResultInfo.finalResultDescription` from BE.
+**Design:** standard H2H schedule card — extend score cell + Match info; no cricket-only layout fork.
+
+Do not invent the **after** situation sentence on FE — render `extendedResultInfo.finalResultDescription` from BE.  
+During IN1 elected copy is composed on FE from raw `toss` + team name — **two i18n strings**: `First innings: {Team} elected to bat` / `… elected to field`.
 
 Baseline Figma already has a hidden **Match info** strip — enable it for CKT situation / elected copy; extend the **score cell** beyond a plain integer.
 
@@ -298,9 +422,16 @@ WMR builder: `resolveCktGroupStandingsMatchHref` — maps gender → `mck`/`wck`
 |-------|--------|
 | `extendedResultInfo.finalResultDescription` | **On Confluence** — implement §3.3 |
 | `liveCurrentProgress` | On Confluence — use for innings (§3.2), not only FBL |
+| `competitors[].result.result` overs | CKT enrichment — §3.4 |
+| `competitors[].toss` | CKT — raw `BAT`\|`FIELD`, **IN1 only** — §3.4 |
+| `competitors[].soResult` | CKT — latest SO; `SO` / `SO2`… — §3.4b |
 | `startText` | Still missing if HideStartDate used |
 | `resultDecision` | Not needed for CKT |
-| Toss / “elected to bat” line | Compose on BE from `ER/TOSS` (§3.4); expose via Match info API field (confirm name with Schedule API) — **not** FE-parsed from raw ODF |
+| First SO label `SO` vs `SO1` | Confirm with scoreboard whether BE normalises or FE strips `1` |
+
+### Open product questions
+
+1. Scoreboard / scheduleItems: does first Super Over already use `SO` or `SO1`? Align schedules `soResult.periodCode` with that surface (prefer `"SO"`).
 
 ---
 
@@ -308,7 +439,11 @@ WMR builder: `resolveCktGroupStandingsMatchHref` — maps gender → `mck`/`wck`
 
 ```
 BEFORE:  DT_SCHEDULE  →  teams | TBD / ROUND2_Rn → placeholders
-DURING:  DT_RESULT    →  SCORE | YTB, PERIOD(+OVER) → liveCurrentProgress
-           ER/TOSS (+ PERIOD=IN1) → elected Match info line
-AFTER:   DT_RESULT    →  scores, WLT, FINAL_RESULT + SC@ResultDesc → finalResultDescription
+         (no result / YTB / toss / soResult)
+
+DURING IN1:  DT_RESULT → score + YTB; toss on winner (BAT|FIELD); PERIOD → liveCurrentProgress
+DURING IN2:  DT_RESULT → both scores; no toss / no YTB
+DURING SO:   result.result = innings; soResult = latest SO (periodCode SO | SO2…)
+
+AFTER:   DT_RESULT → scores (+ soResult if any), WLT, FINAL_RESULT → finalResultDescription
 ```

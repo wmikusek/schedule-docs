@@ -1,3 +1,5 @@
 rawData/**/*.xml
 rawData/**/*.pdf
 rawData/**/.DS_Store
+rawData/**/*.txt
+rawData/**/*.xlsx

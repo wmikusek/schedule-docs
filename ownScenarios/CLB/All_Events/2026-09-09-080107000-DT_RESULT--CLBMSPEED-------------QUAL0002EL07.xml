@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBMSPEED-------------QUAL0002EL07" DocumentType="DT_RESULT" ResultStatus="OFFICIAL" Version="8" FeedFlag="T" TimeStamp="2026-06-23T14:08:12.093+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<UnitDateTime StartDate="2026-06-23T14:04:24+02:00" />
+			<SportDescription DisciplineName="Climbing" EventName="Men's Speed" Gender="M" SubEventName="Qualification - Elimination heats" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result Result="4.751" SortOrder="1" StartOrder="1" StartSortOrder="1" ResultType="TIME" WLT="W" Pty="YC" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.13" />
+			</ExtendedResults>
+			<RecordIndicators>
+				<RecordIndicator Order="1" RecordType="WR" Code="CLBMSPEED-------------------------" />
+				<RecordIndicator Order="2" RecordType="OR" Code="CLBMSPEED-------------------------" />
+			</RecordIndicators>
+			<Competitor Code="9101573" Type="A" Organisation="KAZ">
+				<Composition>
+					<Athlete Order="1" Code="9101573" Bib="5">
+						<Description GivenName="Amir" FamilyName="Maimuratov" Gender="M" Organisation="KAZ" BirthDate="1995-07-19" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Result="4.752" SortOrder="2" StartOrder="2" StartSortOrder="2" ResultType="TIME" WLT="L" QualificationMark="q">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.17" />
+			</ExtendedResults>
+			<RecordIndicators>
+				<RecordIndicator Order="1" RecordType="PB" Code="CLBMSPEED-------------------------" />
+			</RecordIndicators>
+			<Competitor Code="9100329" Type="A" Organisation="INA">
+				<Composition>
+					<Athlete Order="1" Code="9100329" Bib="6">
+						<Description GivenName="Veddriq" FamilyName="Leonardo" Gender="M" Organisation="INA" BirthDate="1997-03-11" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

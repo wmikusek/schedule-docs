@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBWSPEED-------------QFNL000400--" DocumentType="DT_RESULT" ResultStatus="START_LIST" Version="2" FeedFlag="T" TimeStamp="2026-06-24T13:39:06.843+02:00" LogicalDate="2026-06-24" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<SportDescription DisciplineName="Climbing" EventName="Women's Speed" Gender="W" SubEventName="Quarterfinal 4" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result SortOrder="1" StartOrder="1" StartSortOrder="1">
+			<Competitor Code="9103688" Type="A" Organisation="FRA">
+				<Composition>
+					<Athlete Order="1" Code="9103688" Bib="14">
+						<Description GivenName="Manon" FamilyName="Lebon" Gender="F" Organisation="FRA" BirthDate="2005-03-14" />
+						<EventUnitEntry Type="EUE" Code="QUAL_RANK" Value="2" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="2" StartOrder="2" StartSortOrder="2">
+			<Competitor Code="9100306" Type="A" Organisation="USA">
+				<Composition>
+					<Athlete Order="1" Code="9100306" Bib="7">
+						<Description GivenName="Piper" FamilyName="Kelly" Gender="F" Organisation="USA" BirthDate="1999-10-03" />
+						<EventUnitEntry Type="EUE" Code="QUAL_RANK" Value="5" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

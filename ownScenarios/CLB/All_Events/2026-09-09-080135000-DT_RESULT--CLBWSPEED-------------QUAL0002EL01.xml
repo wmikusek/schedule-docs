@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBWSPEED-------------QUAL0002EL01" DocumentType="DT_RESULT" ResultStatus="UNOFFICIAL" Version="5" FeedFlag="T" TimeStamp="2026-06-23T15:27:58.310+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<UnitDateTime StartDate="2026-06-23T15:11:57+02:00" />
+			<SportDescription DisciplineName="Climbing" EventName="Women's Speed" Gender="W" SubEventName="Qualification - Elimination heats" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result Result="FS" SortOrder="1" StartOrder="1" StartSortOrder="1" ResultType="TIME" WLT="L" QualificationMark="q">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.03" />
+			</ExtendedResults>
+			<Competitor Code="9103918" Type="A" Organisation="ESP">
+				<Composition>
+					<Athlete Order="1" Code="9103918" Bib="5">
+						<Description GivenName="Leslie Adriana" FamilyName="Romero Perez" Gender="F" Organisation="ESP" BirthDate="1998-03-18" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="2" StartOrder="2" StartSortOrder="2" WLT="W" QualificationMark="Q">
+			<Competitor Code="9103327" Type="A" Organisation="POL">
+				<Composition>
+					<Athlete Order="1" Code="9103327" Bib="1">
+						<Description GivenName="Aleksandra" FamilyName="Miroslaw" Gender="F" Organisation="POL" BirthDate="1994-02-02" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

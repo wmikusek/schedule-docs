@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBMSPEED-------------QFNL000200--" DocumentType="DT_RESULT" ResultStatus="OFFICIAL" Version="13" FeedFlag="T" TimeStamp="2026-06-24T14:27:15.443+02:00" LogicalDate="2026-06-24" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<UnitDateTime StartDate="2026-06-24T13:47:58+02:00" />
+			<ExtendedInfo Type="UI" Code="RERUN" Value="Y" />
+			<SportDescription DisciplineName="Climbing" EventName="Men's Speed" Gender="M" SubEventName="Quarterfinal 2" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result Result="5.381" SortOrder="1" StartOrder="1" StartSortOrder="1" ResultType="TIME" WLT="W">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.18" />
+				<ExtendedResult Type="SPEED" Code="ORIGINAL" Value="6.195" />
+			</ExtendedResults>
+			<Competitor Code="9106207" Type="A" Organisation="IRI">
+				<Composition>
+					<Athlete Order="1" Code="9106207" Bib="8">
+						<Description GivenName="Reza" FamilyName="Alipour Shenazandifard" Gender="M" Organisation="IRI" BirthDate="1994-04-29" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Result="5.381" SortOrder="2" StartOrder="2" StartSortOrder="2" ResultType="TIME" WLT="L">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.16" />
+				<ExtendedResult Type="SPEED" Code="ORIGINAL" Value="6.195" />
+			</ExtendedResults>
+			<Competitor Code="9103664" Type="A" Organisation="FRA">
+				<Composition>
+					<Athlete Order="1" Code="9103664" Bib="10">
+						<Description GivenName="Bassa" FamilyName="Mawem" Gender="M" Organisation="FRA" BirthDate="1984-11-09" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

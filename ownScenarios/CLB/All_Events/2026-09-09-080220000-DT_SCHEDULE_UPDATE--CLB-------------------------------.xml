@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLB-------------------------------" DocumentType="DT_SCHEDULE_UPDATE" Version="78" FeedFlag="T" TimeStamp="2026-06-24T14:01:31.590+02:00" LogicalDate="2026-06-24" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<Unit Code="CLBWSPEED-------------QFNL000100--" StartDate="2028-07-26T09:15:00+02:00" EndDate="2028-07-26T09:17:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="GETTING_READY" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Quarterfinal 1" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+			<StartList>
+				<Start SortOrder="1" StartOrder="1">
+					<Competitor Type="A" Code="9103918" Organisation="ESP">
+						<Composition>
+							<Athlete Order="1" Code="9103918">
+								<Description GivenName="Leslie Adriana" FamilyName="Romero Perez" Gender="F" Organisation="ESP" BirthDate="1998-03-18" />
+							</Athlete>
+						</Composition>
+					</Competitor>
+				</Start>
+				<Start SortOrder="2" StartOrder="2">
+					<Competitor Type="A" Code="9103327" Organisation="POL">
+						<Composition>
+							<Athlete Order="1" Code="9103327">
+								<Description GivenName="Aleksandra" FamilyName="Miroslaw" Gender="F" Organisation="POL" BirthDate="1994-02-02" />
+							</Athlete>
+						</Composition>
+					</Competitor>
+				</Start>
+			</StartList>
+		</Unit>
+	</Competition>
+</OdfBody>

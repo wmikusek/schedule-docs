@@ -54,7 +54,7 @@ Figma annotation on winner chevron: *“Winner indicator doesn't show up on meda
 
 | Layer | Owns |
 |-------|------|
-| BE / API | Scores as display strings or structured runs/wickets/overs; `YTB`; `liveCurrentProgress`; `finalResultDescription`; placeholders; WLT |
+| BE / API | `result.result` (+ overs); IN1 `YTB` + `toss`; `soResult` (`SO`/`SO2`…); `liveCurrentProgress`; `finalResultDescription`; placeholders; WLT |
 | FE | Map API → baseline slots; **do not** compose ResultDesc / `#ORG*` templates client-side |
 
 ---
@@ -101,11 +101,11 @@ Baseline shows `18` / `16`. For CKT the **same cell** must support:
 
 | State | Display | Source |
 |-------|---------|--------|
-| Before | Empty / hidden scores | No result yet |
-| During — batting | `nnn/n (n.n)` or `nnn/n (nn)` | `competitors[].result` (BE-formatted preferred) |
-| During — not yet batted | **Yet to bat** (not a number) | `YTB` / ResultMark → BE string or FE map of known code → OSRP phrase |
-| After — regular | Same score format both sides | Final result |
-| After — Super Over | Primary score + `SO n/n (…)` (second line or same cell wrap) | When SO periods present |
+| Before | Empty / hidden scores | No `result` / no `YTB` (even post-toss) |
+| During IN1 — batting | `nnn/n (n.n)` | `competitors[].result.result` |
+| During IN1 — not yet batted | **Yet to bat** | `result.result === "YTB"` → OSRP phrase |
+| During IN2 | Both scores | No YTB / no toss |
+| During / after — Super Over | Primary score + second line `SO` / `SO2`… + score | `soResult` **only when `score` is not `YTB`** (e.g. `SO 7/0 (1)`). If `soResult.score === "YTB"` → **omit** the SO line for that row. Latest SO only (`SO2` replaces `SO`). |
 | IRM / abandoned path | Follow IRM / empty + Match info sentence | Prefer situation line for Abandoned / No Result |
 
 **Typography**
@@ -129,16 +129,26 @@ Baseline has **Match info** hidden. For CKT, show it when there is copy:
 
 | Phase | Content | API |
 |-------|---------|-----|
-| During — 1st innings | `First innings: {Team} elected to bat/field` | BE-composed from `ER/TOSS` + `PERIOD=IN1` (requirements §3.4). **Do not** build from raw ODF on FE. |
+| During — 1st innings | Elected line (2 i18n strings) | FE from `competitors[].toss` (`BAT`\|`FIELD`) + that competitor’s team name (requirements §3.4). Hide when `toss` absent (IN2 / before / after). |
 | After | Match situation sentence | **`extendedResultInfo.finalResultDescription` only** |
 | After examples | `India beat Pakistan by 9 wickets` · `… by 44 runs` · Super Over · `Match Abandoned` · `No Result` | BE-interpolated `SC@ResultDesc` |
 
+**IN1 elected translations (FE owns copy + name substitution)**
+
+| `toss` | Match info |
+|--------|------------|
+| `BAT` | `First innings: {Team name} elected to bat` |
+| `FIELD` | `First innings: {Team name} elected to field` |
+
+`{Team name}` = display name of the competitor that carries `toss` (same name as on that H2H row).
+
 **Rules**
 
-1. Never build `#ORG1 beat #ORG2 by #SCR …` on the client.
+1. Never build `#ORG1 beat #ORG2 by #SCR …` on the client (after sentence).
 2. If `finalResultDescription` is null/empty after finish, hide Match info (do not fall back to guessing from scores).
 3. One line; truncate/ellipsis per DS if overflow.
 4. Do not put situation text inside the score column.
+5. Super Over: render `soResult.periodCode` as-is (`SO`, `SO2`, …) **only with a real score**. Do **not** show an SO line when `soResult.score` is `YTB`. BE sends latest SO only — when `periodCode` is `SO2`, do not keep a previous `SO` line. If BE still sends `SO1`, FE may strip the `1` until scoreboard/BE align (requirements §3.4b).
 
 ---
 
@@ -149,8 +159,8 @@ Baseline has **Match info** hidden. For CKT, show it when there is copy:
 | Time / startText | ✓ | ✓ | ✓ (or finished status focus) |
 | Status / medal | status as common; medal if any | live + optional `liveCurrentProgress` | result status + medal |
 | Headline / Subtext | discipline + event/phase/group | same | same |
-| Results rows | teams or placeholders; **no scores** | flags + names + score **or** Yet to bat | scores (+ SO); winner styling |
-| Match info | hidden | optional elected line | **`finalResultDescription`** |
+| Results rows | teams or placeholders; **no scores / no YTB** | flags + names + score **or** YTB (IN1 only); SO second line only when `soResult.score` ≠ `YTB` | scores (+ SO if scored); winner styling |
+| Match info | hidden | elected line from `toss` (IN1 only; 2 i18n strings) | **`finalResultDescription`** |
 | Full Results etc. | as product | as product | as product |
 
 ---
@@ -165,8 +175,11 @@ type ScheduleCompetitorRow = {
   flag?: string;
   name: string;
   isWinner?: boolean;
-  /** Baseline: number | string. CKT: "128/5 (20.3)" | "Yet to bat" | "128/5 (20.3) SO 12/1 (1.0)" */
+  /** Baseline: number | string. CKT innings: "128/5 (20.3)" | "Yet to bat" */
   scoreDisplay?: string | null;
+  /** CKT Super Over line when scored: "SO 7/0 (1)" | "SO2 12/0 (1.4)". Omit / null when soResult.score is YTB. */
+  soScoreDisplay?: string | null;
+  toss?: "BAT" | "FIELD";
 };
 
 type ScheduleCardViewModel = {
@@ -177,19 +190,20 @@ type ScheduleCardViewModel = {
   subtext: string;             // event / phase / group
   rows: [ScheduleCompetitorRow, ScheduleCompetitorRow] | ScheduleCompetitorRow[];
   liveProgressLabel?: string | null;  // from liveCurrentProgress.name
-  matchInfo?: string | null;          // finalResultDescription | elected line
+  matchInfo?: string | null;          // finalResultDescription | elected line from toss
   showMatchInfo: boolean;
 };
 ```
 
 | API | → VM |
 |-----|------|
-| `competitors[].result` (+ YTB) | `scoreDisplay` |
+| `competitors[].result.result` (+ YTB in IN1) | `scoreDisplay` |
+| `competitors[].soResult` | `soScoreDisplay` (`periodCode` + score) |
+| `competitors[].toss` | `toss` / elected `matchInfo` (IN1) |
 | `competitors[].result.wlt` | `isWinner` |
 | `placeholderOpponents[]` | rows without scores |
 | `liveCurrentProgress.name` | `liveProgressLabel` |
 | `extendedResultInfo.finalResultDescription` | `matchInfo` (after) |
-| toss/elected (BE Match info during; §3.4) | `matchInfo` (during) |
 
 ---
 
@@ -197,13 +211,14 @@ type ScheduleCardViewModel = {
 
 - [ ] Reuse baseline card; no parallel cricket-only layout without design
 - [ ] Score cell accepts **string** (runs/wickets/overs), not only integer
-- [ ] Map `YTB` → **Yet to bat** in score slot
-- [ ] Super Over: second score fragment in same cell or approved wrap
+- [ ] Before: empty scores (never double YTB)
+- [ ] Map IN1 `YTB` → **Yet to bat** in score slot
+- [ ] Super Over: second line only when `soResult.score` is not `YTB` (e.g. `SO 7/0 (1)`); latest SO only (`SO2` replaces `SO`); optional strip `1` if BE sends `SO1`
 - [ ] Enable **Match info** for `finalResultDescription` after finish
-- [ ] Never compose situation sentence on FE
+- [ ] Never compose **after** situation sentence on FE
+- [ ] IN1: two i18n strings — `First innings: {Team} elected to bat/field` from `toss` + team name; hide in IN2
 - [ ] Placeholders: render BE `name`; no client TBD dictionary
 - [ ] Optional: `liveCurrentProgress` in status area during live
-- [ ] First-innings elected line when BE sends Match info (§3.4)
 - [ ] Winner chevron + bold; suppress for tie / abandoned / no result
 - [ ] Long score strings: layout QA (desktop + mobile widths)
 

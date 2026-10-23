@@ -4,7 +4,7 @@
 **Shared rules:** [schedule-tile-common.md](../common/schedule-tile-common.md)  
 **Editions:** OSRP LA28 R4 V1.0 · ORIS LA28 R9 · ODF CLB LA28 · SC/CC `OG2028` v1.5.0  
 **RawData:** Paris-style dump under `rawData/CLB`.  
-**Test freeze:** [own_scenarios/CLB](../../own_scenarios/CLB/README.md) (`01_Schedule_Tile_Mixed_Day`, LogicalDate `2026-09-09`)
+**Test freezes:** [ownScenarios/CLB](../../ownScenarios/CLB/README.md) — `01_Schedule_Tile_Mixed_Day` (LogicalDate `2026-09-09`); mega [`All_Events`](../../ownScenarios/CLB/All_Events/README.md) (M Speed→medals, W Speed QFNL live, M Lead SFNL live, M Boulder→gold)
 
 ---
 

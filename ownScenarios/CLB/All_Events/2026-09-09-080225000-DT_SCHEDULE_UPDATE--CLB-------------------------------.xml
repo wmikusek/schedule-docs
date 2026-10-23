@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLB-------------------------------" DocumentType="DT_SCHEDULE_UPDATE" Version="94" FeedFlag="T" TimeStamp="2026-06-24T14:06:57.444+02:00" LogicalDate="2026-06-24" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<Unit Code="CLBMSPEED-------------SFNL000100--" StartDate="2028-07-26T09:30:00+02:00" EndDate="2028-07-26T09:32:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="GETTING_READY" ActualStartDate="2026-06-24T13:56:07+02:00" ActualEndDate="2026-06-24T13:56:13+02:00" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Semifinal 1" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+			<StartList>
+				<Start SortOrder="1" StartOrder="1">
+					<PreviousUnit Unit="CLBMSPEED-------------QFNL000100--" WLT="W" />
+					<Competitor Code="NOCOMP" Type="A" />
+				</Start>
+				<Start SortOrder="2" StartOrder="2">
+					<Competitor Type="A" Code="9106207" Organisation="IRI">
+						<Composition>
+							<Athlete Order="1" Code="9106207">
+								<Description GivenName="Reza" FamilyName="Alipour Shenazandifard" Gender="M" Organisation="IRI" BirthDate="1994-04-29" />
+							</Athlete>
+						</Composition>
+					</Competitor>
+				</Start>
+			</StartList>
+		</Unit>
+	</Competition>
+</OdfBody>

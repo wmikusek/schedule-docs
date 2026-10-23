@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLB-------------------------------" DocumentType="DT_SCHEDULE_UPDATE" Version="120" FeedFlag="T" TimeStamp="2026-06-24T14:25:29.207+02:00" LogicalDate="2026-06-24" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<Unit Code="CLBMSPEED-------------FNL-000100--" StartDate="2028-07-26T09:52:00+02:00" EndDate="2028-07-26T09:54:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="FINISHED" ActualStartDate="2026-06-24T14:22:58+02:00" Medal="1" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Big Final" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+			<StartList>
+				<Start SortOrder="1" StartOrder="1">
+					<Competitor Type="A" Code="9106207" Organisation="IRI">
+						<Composition>
+							<Athlete Order="1" Code="9106207">
+								<Description GivenName="Reza" FamilyName="Alipour Shenazandifard" Gender="M" Organisation="IRI" BirthDate="1994-04-29" />
+							</Athlete>
+						</Composition>
+					</Competitor>
+				</Start>
+				<Start SortOrder="2" StartOrder="2">
+					<Competitor Type="A" Code="9102693" Organisation="ITA">
+						<Composition>
+							<Athlete Order="1" Code="9102693">
+								<Description GivenName="Matteo" FamilyName="Zurloni" Gender="M" Organisation="ITA" BirthDate="2002-03-20" />
+							</Athlete>
+						</Composition>
+					</Competitor>
+				</Start>
+			</StartList>
+		</Unit>
+	</Competition>
+</OdfBody>

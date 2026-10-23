@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBMSPEED-------------QUAL0002EL05" DocumentType="DT_RESULT" ResultStatus="UNOFFICIAL" Version="12" FeedFlag="T" TimeStamp="2026-06-23T13:59:51.455+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<UnitDateTime StartDate="2026-06-23T13:51:22+02:00" />
+			<ExtendedInfo Type="UI" Code="RERUN" Value="Y" />
+			<SportDescription DisciplineName="Climbing" EventName="Men's Speed" Gender="M" SubEventName="Qualification - Elimination heats" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result Result="9.884" SortOrder="1" StartOrder="1" StartSortOrder="1" ResultType="TIME" WLT="W" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.14" />
+				<ExtendedResult Type="SPEED" Code="ORIGINAL" Value="Fall" />
+			</ExtendedResults>
+			<Competitor Code="9102693" Type="A" Organisation="ITA">
+				<Composition>
+					<Athlete Order="1" Code="9102693" Bib="11">
+						<Description GivenName="Matteo" FamilyName="Zurloni" Gender="M" Organisation="ITA" BirthDate="2002-03-20" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Result="9.884" SortOrder="2" StartOrder="2" StartSortOrder="2" ResultType="TIME" WLT="L">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.15" />
+				<ExtendedResult Type="SPEED" Code="ORIGINAL" Value="Fall" />
+			</ExtendedResults>
+			<Competitor Code="9103698" Type="A" Organisation="CHN">
+				<Composition>
+					<Athlete Order="1" Code="9103698" Bib="3">
+						<Description GivenName="Jinbao" FamilyName="Long" Gender="M" Organisation="CHN" BirthDate="2000-11-08" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

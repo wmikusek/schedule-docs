@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBWSPEED-------------QUAL0002EL04" DocumentType="DT_RESULT" ResultStatus="START_LIST" Version="1" FeedFlag="T" TimeStamp="2026-06-23T15:04:55.145+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<SportDescription DisciplineName="Climbing" EventName="Women's Speed" Gender="W" SubEventName="Qualification - Elimination heats" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result SortOrder="1" StartOrder="1" StartSortOrder="1">
+			<Competitor Code="9100962" Type="A" Organisation="NZL">
+				<Composition>
+					<Athlete Order="1" Code="9100962" Bib="9">
+						<Description GivenName="Sarah" FamilyName="Tetzlaff" Gender="F" Organisation="NZL" BirthDate="2000-04-18" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="2" StartOrder="2" StartSortOrder="2">
+			<Competitor Code="9100565" Type="A" Organisation="INA">
+				<Composition>
+					<Athlete Order="1" Code="9100565" Bib="12">
+						<Description GivenName="Rajiah" FamilyName="Sallsabillah" Gender="F" Organisation="INA" BirthDate="1999-04-30" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

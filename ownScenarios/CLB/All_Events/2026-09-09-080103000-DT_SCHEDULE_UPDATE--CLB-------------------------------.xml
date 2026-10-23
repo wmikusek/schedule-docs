@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLB-------------------------------" DocumentType="DT_SCHEDULE_UPDATE" Version="57" FeedFlag="T" TimeStamp="2026-06-24T13:15:07.193+02:00" LogicalDate="2026-06-24" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<Unit Code="CLBMLEAD--------------SFNL000100--" StartDate="2028-07-25T18:45:00+02:00" EndDate="2028-07-25T20:00:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="GETTING_READY" Medal="0" Venue="LCT" Location="CL4" SessionCode="CLB04" ScheduleFlag="Y">
+			<ItemName Value="Semifinal" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Boulder &amp; Lead" />
+		</Unit>
+	</Competition>
+</OdfBody>

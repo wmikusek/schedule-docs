@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBMSPEED-------------SFNL000100--" DocumentType="DT_RESULT" ResultStatus="UNOFFICIAL" Version="5" FeedFlag="T" TimeStamp="2026-06-24T14:07:09.190+02:00" LogicalDate="2026-06-24" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<UnitDateTime StartDate="2026-06-24T14:06:57+02:00" />
+			<SportDescription DisciplineName="Climbing" EventName="Men's Speed" Gender="M" SubEventName="Semifinal 1" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result Result="9.14" SortOrder="2" StartOrder="2" StartSortOrder="2" ResultType="TIME" WLT="W">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.11" />
+			</ExtendedResults>
+			<Competitor Code="9106207" Type="A" Organisation="IRI">
+				<Composition>
+					<Athlete Order="1" Code="9106207" Bib="8">
+						<Description GivenName="Reza" FamilyName="Alipour Shenazandifard" Gender="M" Organisation="IRI" BirthDate="1994-04-29" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

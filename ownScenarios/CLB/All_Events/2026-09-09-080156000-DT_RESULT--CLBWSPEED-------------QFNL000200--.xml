@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBWSPEED-------------QFNL000200--" DocumentType="DT_RESULT" ResultStatus="START_LIST" Version="2" FeedFlag="T" TimeStamp="2026-06-24T13:39:06.804+02:00" LogicalDate="2026-06-24" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<SportDescription DisciplineName="Climbing" EventName="Women's Speed" Gender="W" SubEventName="Quarterfinal 2" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result SortOrder="1" StartOrder="1" StartSortOrder="1">
+			<Competitor Code="9102695" Type="A" Organisation="ITA">
+				<Composition>
+					<Athlete Order="1" Code="9102695" Bib="4">
+						<Description GivenName="Beatrice" FamilyName="Colli" Gender="F" Organisation="ITA" BirthDate="2004-10-10" />
+						<EventUnitEntry Type="EUE" Code="QUAL_RANK" Value="3" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="2" StartOrder="2" StartSortOrder="2">
+			<Competitor Code="9100962" Type="A" Organisation="NZL">
+				<Composition>
+					<Athlete Order="1" Code="9100962" Bib="9">
+						<Description GivenName="Sarah" FamilyName="Tetzlaff" Gender="F" Organisation="NZL" BirthDate="2000-04-18" />
+						<EventUnitEntry Type="EUE" Code="QUAL_RANK" Value="4" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

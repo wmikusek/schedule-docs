@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBMBOULDER-----------SFNL000100--" DocumentType="DT_CONFIG" Version="1" FeedFlag="T" TimeStamp="2026-06-23T09:41:37.778+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<Configs>
+			<Config Unit="CLBMBOULDER-----------SFNL000100--">
+				<ExtendedConfig Type="QUALIFICATION" Code="QUAL_RULE" Value="PT8^F" />
+				<ExtendedConfig Type="EC" Code="BOULDER" Pos="1" Value="1" />
+				<ExtendedConfig Type="EC" Code="BOULDER" Pos="2" Value="2" />
+				<ExtendedConfig Type="EC" Code="BOULDER" Pos="3" Value="3" />
+				<ExtendedConfig Type="EC" Code="BOULDER" Pos="4" Value="4" />
+			</Config>
+		</Configs>
+	</Competition>
+</OdfBody>

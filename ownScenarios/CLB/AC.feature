@@ -58,3 +58,38 @@ Feature: CLB schedule tiles on a mixed freeze day
     When the user clicks Women's Lead Final or Women's Boulder Final
     Then the href is the unit-results URL for that tile RSC
     And the href does not change between before, during and after
+
+Feature: CLB All_Events mega freeze
+  Background:
+    Given competition OG2028-ITL
+    And the CLB messages in own_scenarios/CLB/All_Events have been ingested in filename order
+    And ODF body StartDates keep July 2028 competition days
+
+  Scenario: After full ingest Men Speed phases are finished with unofficial medals
+    When the client requests schedulesPerDay/2028-07-26 for CLB
+    Then Men's Speed QFNL SFNL and FNL phase tiles are FINISHED
+    And Men's Speed pair ScheduleFlag=S units are not listed as separate cards
+    And Men's Speed event medallists are UNOFFICIAL (IRI gold, ITA silver, INA bronze)
+    And there is no OFFICIAL DT_MEDALLISTS and no DT_MEDALS for Men's Speed
+
+  Scenario: Women's Speed QFNL stays live
+    When the client requests schedulesPerDay/2028-07-26 for CLB
+    Then Women's Speed Quarterfinals phase CLBWSPEED-------------QFNL-------- is RUNNING
+    And there is a LIVE DT_RESULT for CLBWSPEED-------------QFNL000100--
+    And Women's Speed SFNL and FNL phase tiles are not present as FINISHED
+
+  Scenario: Men's Lead SFNL stays live
+    When the client requests schedulesPerDay/2028-07-25 for CLB
+    Then Men's Lead Semifinal CLBMLEAD--------------SFNL000100-- is RUNNING
+    And there is a LIVE DT_RESULT for CLBMLEAD--------------SFNL000100--
+    And Men's Lead Final is not FINISHED in this freeze
+
+  Scenario: Men's Boulder through gold on the following day
+    When the client requests schedulesPerDay/2028-07-27 for CLB
+    Then Men's Boulder Final CLBMBOULDER-----------FNL-000100-- is FINISHED
+    And the tile shows UNOFFICIAL medallists ESP Gines Lopez, USA Grupper, CHN Pan
+    And there is no OFFICIAL DT_MEDALLISTS and no DT_MEDALS for Men's Boulder
+
+  Scenario: Speed phase cards use RSC override
+    When the user clicks Men's Speed Finals or Women's Speed Quarterfinals
+    Then the href prefers overrideRsc to the Big Final unit when configured

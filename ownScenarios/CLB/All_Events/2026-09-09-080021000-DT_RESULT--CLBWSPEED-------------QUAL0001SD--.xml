@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBWSPEED-------------QUAL0001SD--" DocumentType="DT_RESULT" ResultStatus="START_LIST" Version="1" FeedFlag="T" TimeStamp="2026-06-23T09:43:11.633+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="1" Value="1">
+				<Extension Code="ID" Pos="1" Value="9108268" />
+				<Extension Code="ID" Pos="2" Value="9103321" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="2" Value="2">
+				<Extension Code="ID" Pos="1" Value="9102695" />
+				<Extension Code="ID" Pos="2" Value="9100540" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="3" Value="3">
+				<Extension Code="ID" Pos="1" Value="9103327" />
+				<Extension Code="ID" Pos="2" Value="9100305" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="4" Value="4">
+				<Extension Code="ID" Pos="1" Value="9100565" />
+				<Extension Code="ID" Pos="2" Value="9103700" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="5" Value="5">
+				<Extension Code="ID" Pos="1" Value="9100306" />
+				<Extension Code="ID" Pos="2" Value="9103702" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="6" Value="6">
+				<Extension Code="ID" Pos="1" Value="9103918" />
+				<Extension Code="ID" Pos="2" Value="9103688" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="7" Value="7">
+				<Extension Code="ID" Pos="1" Value="9100962" />
+				<Extension Code="ID" Pos="2" Value="9103685" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="8" Value="8">
+				<Extension Code="ID" Pos="1" Value="9103321" />
+				<Extension Code="ID" Pos="2" Value="9108268" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="9" Value="9">
+				<Extension Code="ID" Pos="1" Value="9100540" />
+				<Extension Code="ID" Pos="2" Value="9102695" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="10" Value="10">
+				<Extension Code="ID" Pos="1" Value="9100305" />
+				<Extension Code="ID" Pos="2" Value="9103327" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="11" Value="11">
+				<Extension Code="ID" Pos="1" Value="9103700" />
+				<Extension Code="ID" Pos="2" Value="9100565" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="12" Value="12">
+				<Extension Code="ID" Pos="1" Value="9103702" />
+				<Extension Code="ID" Pos="2" Value="9100306" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="13" Value="13">
+				<Extension Code="ID" Pos="1" Value="9103688" />
+				<Extension Code="ID" Pos="2" Value="9103918" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="14" Value="14">
+				<Extension Code="ID" Pos="1" Value="9103685" />
+				<Extension Code="ID" Pos="2" Value="9100962" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="UI" Code="ZONE_OPEN" Value="11:30" />
+			<ExtendedInfo Type="UI" Code="ZONE_CLOSE" Value="12:00" />
+			<SportDescription DisciplineName="Climbing" EventName="Women's Speed" Gender="W" SubEventName="Qualification - Seeding heats" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result SortOrder="1" StartOrder="1" StartSortOrder="1">
+			<Competitor Code="9108268" Type="A" Organisation="RSA">
+				<Composition>
+					<Athlete Order="1" Code="9108268" Bib="13">
+						<Description GivenName="Aniya" FamilyName="Holder" Gender="F" Organisation="RSA" BirthDate="2001-08-03" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="2" StartOrder="2" StartSortOrder="2">
+			<Competitor Code="9102695" Type="A" Organisation="ITA">
+				<Composition>
+					<Athlete Order="1" Code="9102695" Bib="4">
+						<Description GivenName="Beatrice" FamilyName="Colli" Gender="F" Organisation="ITA" BirthDate="2004-10-10" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="3" StartOrder="3" StartSortOrder="3">
+			<Competitor Code="9103327" Type="A" Organisation="POL">
+				<Composition>
+					<Athlete Order="1" Code="9103327" Bib="1">
+						<Description GivenName="Aleksandra" FamilyName="Miroslaw" Gender="F" Organisation="POL" BirthDate="1994-02-02" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="4" StartOrder="4" StartSortOrder="4">
+			<Competitor Code="9100565" Type="A" Organisation="INA">
+				<Composition>
+					<Athlete Order="1" Code="9100565" Bib="12">
+						<Description GivenName="Rajiah" FamilyName="Sallsabillah" Gender="F" Organisation="INA" BirthDate="1999-04-30" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="5" StartOrder="5" StartSortOrder="5">
+			<Competitor Code="9100306" Type="A" Organisation="USA">
+				<Composition>
+					<Athlete Order="1" Code="9100306" Bib="7">
+						<Description GivenName="Piper" FamilyName="Kelly" Gender="F" Organisation="USA" BirthDate="1999-10-03" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="6" StartOrder="6" StartSortOrder="6">
+			<Competitor Code="9103918" Type="A" Organisation="ESP">
+				<Composition>
+					<Athlete Order="1" Code="9103918" Bib="5">
+						<Description GivenName="Leslie Adriana" FamilyName="Romero Perez" Gender="F" Organisation="ESP" BirthDate="1998-03-18" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="7" StartOrder="7" StartSortOrder="7">
+			<Competitor Code="9100962" Type="A" Organisation="NZL">
+				<Composition>
+					<Athlete Order="1" Code="9100962" Bib="9">
+						<Description GivenName="Sarah" FamilyName="Tetzlaff" Gender="F" Organisation="NZL" BirthDate="2000-04-18" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="8" StartOrder="8" StartSortOrder="8">
+			<Competitor Code="9103321" Type="A" Organisation="POL">
+				<Composition>
+					<Athlete Order="1" Code="9103321" Bib="11">
+						<Description GivenName="Aleksandra" FamilyName="Kalucka" Gender="F" Organisation="POL" BirthDate="2001-12-25" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="9" StartOrder="9" StartSortOrder="9">
+			<Competitor Code="9100540" Type="A" Organisation="INA">
+				<Composition>
+					<Athlete Order="1" Code="9100540" Bib="2">
+						<Description GivenName="Desak Made" FamilyName="Made Rita Kusuma Dewi" Gender="F" Organisation="INA" BirthDate="2001-01-24" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="10" StartOrder="10" StartSortOrder="10">
+			<Competitor Code="9100305" Type="A" Organisation="USA">
+				<Composition>
+					<Athlete Order="1" Code="9100305" Bib="6">
+						<Description GivenName="Emma" FamilyName="Hunt" Gender="F" Organisation="USA" BirthDate="2003-04-01" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="11" StartOrder="11" StartSortOrder="11">
+			<Competitor Code="9103700" Type="A" Organisation="CHN">
+				<Composition>
+					<Athlete Order="1" Code="9103700" Bib="8">
+						<Description GivenName="Yafei" FamilyName="Zhou" Gender="F" Organisation="CHN" BirthDate="2004-05-15" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="12" StartOrder="12" StartSortOrder="12">
+			<Competitor Code="9103702" Type="A" Organisation="CHN">
+				<Composition>
+					<Athlete Order="1" Code="9103702" Bib="10">
+						<Description GivenName="Lijuan" FamilyName="Deng" Gender="F" Organisation="CHN" BirthDate="2000-05-12" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="13" StartOrder="13" StartSortOrder="13">
+			<Competitor Code="9103688" Type="A" Organisation="FRA">
+				<Composition>
+					<Athlete Order="1" Code="9103688" Bib="14">
+						<Description GivenName="Manon" FamilyName="Lebon" Gender="F" Organisation="FRA" BirthDate="2005-03-14" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="14" StartOrder="14" StartSortOrder="14">
+			<Competitor Code="9103685" Type="A" Organisation="FRA">
+				<Composition>
+					<Athlete Order="1" Code="9103685" Bib="3">
+						<Description GivenName="Capucine" FamilyName="Viglione" Gender="F" Organisation="FRA" BirthDate="2002-12-09" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

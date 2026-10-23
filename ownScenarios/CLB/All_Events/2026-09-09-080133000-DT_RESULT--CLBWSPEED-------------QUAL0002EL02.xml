@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBWSPEED-------------QUAL0002EL02" DocumentType="DT_RESULT" ResultStatus="UNOFFICIAL" Version="8" FeedFlag="T" TimeStamp="2026-06-23T15:23:17.770+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<ExtendedInfo Type="UI" Code="RERUN" Value="Y" />
+			<SportDescription DisciplineName="Climbing" EventName="Women's Speed" Gender="W" SubEventName="Qualification - Elimination heats" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result Result="11.394" SortOrder="1" StartOrder="1" StartSortOrder="1" ResultType="TIME" WLT="W" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.15" />
+				<ExtendedResult Type="SPEED" Code="ORIGINAL" Value="FS" />
+			</ExtendedResults>
+			<Competitor Code="9103321" Type="A" Organisation="POL">
+				<Composition>
+					<Athlete Order="1" Code="9103321" Bib="11">
+						<Description GivenName="Aleksandra" FamilyName="Kalucka" Gender="F" Organisation="POL" BirthDate="2001-12-25" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Result="11.395" SortOrder="2" StartOrder="2" StartSortOrder="2" ResultType="TIME" WLT="L">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.12" />
+				<ExtendedResult Type="SPEED" Code="ORIGINAL" Value="FS" />
+			</ExtendedResults>
+			<Competitor Code="9108268" Type="A" Organisation="RSA">
+				<Composition>
+					<Athlete Order="1" Code="9108268" Bib="13">
+						<Description GivenName="Aniya" FamilyName="Holder" Gender="F" Organisation="RSA" BirthDate="2001-08-03" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

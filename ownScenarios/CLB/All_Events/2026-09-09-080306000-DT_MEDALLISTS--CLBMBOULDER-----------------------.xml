@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBMBOULDER-----------------------" DocumentType="DT_MEDALLISTS" ResultStatus="UNOFFICIAL" Version="2" FeedFlag="T" TimeStamp="2026-06-25T09:15:55.281+02:00" LogicalDate="2026-06-25" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<SportDescription DisciplineName="Climbing" EventName="Men's Boulder" Gender="M" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" />
+		</ExtendedInfos>
+		<Medal Code="ME_GOLD" Unit="CLBMBOULDER-----------FNL-000100--" Date="2028-07-27">
+			<Competitor Code="9103915" Type="A" Order="1" Organisation="ESP">
+				<Composition>
+					<Athlete Order="1" Code="9103915" Bib="8">
+						<Description GivenName="Alberto" FamilyName="Gines Lopez" Gender="M" Organisation="ESP" BirthDate="2002-10-23" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Medal>
+		<Medal Code="ME_SILVER" Unit="CLBMBOULDER-----------FNL-000100--" Date="2028-07-27">
+			<Competitor Code="9100303" Type="A" Order="1" Organisation="USA">
+				<Composition>
+					<Athlete Order="1" Code="9100303" Bib="10">
+						<Description GivenName="Jesse" FamilyName="Grupper" Gender="M" Organisation="USA" BirthDate="1997-01-06" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Medal>
+		<Medal Code="ME_BRONZE" Unit="CLBMBOULDER-----------FNL-000100--" Date="2028-07-27">
+			<Competitor Code="9103696" Type="A" Order="1" Organisation="CHN">
+				<Composition>
+					<Athlete Order="1" Code="9103696" Bib="9">
+						<Description GivenName="Yufei" FamilyName="Pan" Gender="M" Organisation="CHN" BirthDate="2000-06-23" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Medal>
+	</Competition>
+</OdfBody>

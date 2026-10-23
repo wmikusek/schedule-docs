@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBWSPEED-------------QUAL0002EL03" DocumentType="DT_RESULT" ResultStatus="OFFICIAL" Version="11" FeedFlag="T" TimeStamp="2026-06-23T15:45:27.991+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<UnitDateTime StartDate="2026-06-23T15:24:22+02:00" />
+			<SportDescription DisciplineName="Climbing" EventName="Women's Speed" Gender="W" SubEventName="Qualification - Elimination heats" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result Result="11.86" SortOrder="1" StartOrder="1" StartSortOrder="1" ResultType="TIME" WLT="L">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.14" />
+			</ExtendedResults>
+			<Competitor Code="9103702" Type="A" Organisation="CHN">
+				<Composition>
+					<Athlete Order="1" Code="9103702" Bib="10">
+						<Description GivenName="Lijuan" FamilyName="Deng" Gender="F" Organisation="CHN" BirthDate="2000-05-12" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Result="11.32" SortOrder="2" StartOrder="2" StartSortOrder="2" ResultType="TIME" WLT="W" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Value="0.19" />
+			</ExtendedResults>
+			<Competitor Code="9103700" Type="A" Organisation="CHN">
+				<Composition>
+					<Athlete Order="1" Code="9103700" Bib="8">
+						<Description GivenName="Yafei" FamilyName="Zhou" Gender="F" Organisation="CHN" BirthDate="2004-05-15" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

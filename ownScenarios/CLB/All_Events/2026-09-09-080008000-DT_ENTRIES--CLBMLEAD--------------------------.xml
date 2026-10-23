@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBMLEAD--------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" TimeStamp="2026-06-23T09:17:30.718+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<Entry Code="9100677" Type="A" Bib="12" Organisation="AUT" SortOrder="1">
+			<Composition>
+				<Athlete Code="9100677" Order="1" Bib="12">
+					<Description GivenName="Jakob" FamilyName="Schubert" Gender="M" Organisation="AUT" BirthDate="1990-12-31" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="34" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="WCH" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="4" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9100679" Type="A" Bib="5" Organisation="AUT" SortOrder="2">
+			<Composition>
+				<Athlete Code="9100679" Order="1" Bib="5">
+					<Description GivenName="Nicolai" FamilyName="Uznik" Gender="M" Organisation="AUT" BirthDate="2000-08-11" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="36" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="1130" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9103677" Type="A" Bib="6" Organisation="FRA" SortOrder="3">
+			<Composition>
+				<Athlete Code="9103677" Order="1" Bib="6">
+					<Description GivenName="Sam" FamilyName="Avezou" Gender="M" Organisation="FRA" BirthDate="2001-03-22" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="21" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="11" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9103674" Type="A" Bib="4" Organisation="FRA" SortOrder="4">
+			<Composition>
+				<Athlete Code="9103674" Order="1" Bib="4">
+					<Description GivenName="Paul" FamilyName="Jenft" Gender="M" Organisation="FRA" BirthDate="2003-06-16" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="22" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="16" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9104214" Type="A" Bib="2" Organisation="GBR" SortOrder="5">
+			<Composition>
+				<Athlete Code="9104214" Order="1" Bib="2">
+					<Description GivenName="Hamish" FamilyName="McArthur" Gender="M" Organisation="GBR" BirthDate="2002-03-06" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="18" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="30" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9104216" Type="A" Bib="11" Organisation="GBR" SortOrder="6">
+			<Composition>
+				<Athlete Code="9104216" Order="1" Bib="11">
+					<Description GivenName="Maximillian" FamilyName="Milne" Gender="M" Organisation="GBR" BirthDate="2000-12-10" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="42" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="130" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9104217" Type="A" Bib="9" Organisation="GBR" SortOrder="7">
+			<Composition>
+				<Athlete Code="9104217" Order="1" Bib="9">
+					<Description GivenName="James" FamilyName="Pope" Gender="M" Organisation="GBR" BirthDate="1998-12-24" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="13" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="230" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9104218" Type="A" Bib="3" Organisation="GBR" SortOrder="8">
+			<Composition>
+				<Athlete Code="9104218" Order="1" Bib="3">
+					<Description GivenName="Toby" FamilyName="Roberts" Gender="M" Organisation="GBR" BirthDate="2005-03-15" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="40" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="CQEU" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="2" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9102087" Type="A" Bib="10" Organisation="GER" SortOrder="9">
+			<Composition>
+				<Athlete Code="9102087" Order="1" Bib="10">
+					<Description GivenName="Yannick" FamilyName="Flohe" Gender="M" Organisation="GER" BirthDate="1999-08-14" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="36" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="13" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9102086" Type="A" Bib="7" Organisation="GER" SortOrder="10">
+			<Composition>
+				<Athlete Code="9102086" Order="1" Bib="7">
+					<Description GivenName="Alexander" FamilyName="Megos" Gender="M" Organisation="GER" BirthDate="1993-08-12" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="31" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="9" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9102022" Type="A" Bib="8" Organisation="JPN" SortOrder="11">
+			<Composition>
+				<Athlete Code="9102022" Order="1" Bib="8">
+					<Description GivenName="Sorato" FamilyName="Anraku" Gender="M" Organisation="JPN" BirthDate="2006-11-14" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="38" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="CQAS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="1" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9103318" Type="A" Bib="1" Organisation="POL" SortOrder="12">
+			<Composition>
+				<Athlete Code="9103318" Order="1" Bib="1">
+					<Description GivenName="Marcin" FamilyName="Dzienski" Gender="M" Organisation="POL" BirthDate="1993-01-22" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="39" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="2130" />
+				</Athlete>
+			</Composition>
+		</Entry>
+	</Competition>
+</OdfBody>

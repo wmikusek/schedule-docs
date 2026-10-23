@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBMLEAD--------------SFNL000100--" DocumentType="DT_RESULT" ResultStatus="LIVE" Version="184" FeedFlag="T" TimeStamp="2026-06-24T13:32:55.885+02:00" LogicalDate="2026-06-24" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<UnitDateTime StartDate="2026-06-24T13:15:09+02:00" />
+			<ExtendedInfo Type="DISPLAY" Code="NEXT" Value="9103674" />
+			<ExtendedInfo Type="DISPLAY" Code="LAST_COMP" Value="9103318" />
+			<ExtendedInfo Type="UI" Code="ZONE_OPEN" Value="18:15" />
+			<ExtendedInfo Type="UI" Code="ZONE_CLOSE" Value="18:30" />
+			<ExtendedInfo Type="UI" Code="OBSERVE_TIME" Value="6" />
+			<ExtendedInfo Type="UI" Code="CLIMB_TIME" Value="6" />
+			<SportDescription DisciplineName="Climbing" EventName="Men's Lead" Gender="M" SubEventName="Semifinal" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL4" LocationName="Boulder &amp; Lead" />
+		</ExtendedInfos>
+		<Result Rank="1" Result="36" SortOrder="1" StartOrder="6" StartSortOrder="6" ResultType="POINTS">
+			<ExtendedResults>
+				<ExtendedResult Type="LEAD" Code="HOLD" Value="36" />
+				<ExtendedResult Type="LEAD" Code="TIME" Value="4:19" />
+			</ExtendedResults>
+			<Competitor Code="9102086" Type="A" Organisation="GER">
+				<Composition>
+					<Athlete Order="1" Code="9102086" Bib="7">
+						<Description GivenName="Alexander" FamilyName="Megos" Gender="M" Organisation="GER" BirthDate="1993-08-12" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="2" Result="24" SortOrder="2" StartOrder="3" StartSortOrder="3" ResultType="POINTS">
+			<ExtendedResults>
+				<ExtendedResult Type="LEAD" Code="HOLD" Value="24" />
+				<ExtendedResult Type="LEAD" Code="TIME" Value="1:54" />
+			</ExtendedResults>
+			<Competitor Code="9102087" Type="A" Organisation="GER">
+				<Composition>
+					<Athlete Order="1" Code="9102087" Bib="10">
+						<Description GivenName="Yannick" FamilyName="Flohe" Gender="M" Organisation="GER" BirthDate="1999-08-14" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="3" Result="16+" SortOrder="3" StartOrder="9" StartSortOrder="9" ResultType="POINTS">
+			<ExtendedResults>
+				<ExtendedResult Type="LEAD" Code="HOLD" Value="16+" />
+				<ExtendedResult Type="LEAD" Code="TIME" Value="4:23" />
+			</ExtendedResults>
+			<Competitor Code="9103674" Type="A" Organisation="FRA">
+				<Composition>
+					<Athlete Order="1" Code="9103674" Bib="4">
+						<Description GivenName="Paul" FamilyName="Jenft" Gender="M" Organisation="FRA" BirthDate="2003-06-16" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="4" Result="11" SortOrder="4" StartOrder="11" StartSortOrder="11" ResultType="POINTS">
+			<ExtendedResults>
+				<ExtendedResult Type="LEAD" Code="HOLD" Value="11" />
+				<ExtendedResult Type="LEAD" Code="TIME" Value="1:16" />
+			</ExtendedResults>
+			<Competitor Code="9104214" Type="A" Organisation="GBR">
+				<Composition>
+					<Athlete Order="1" Code="9104214" Bib="2">
+						<Description GivenName="Hamish" FamilyName="McArthur" Gender="M" Organisation="GBR" BirthDate="2002-03-06" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="5" Result="9" SortOrder="5" StartOrder="12" StartSortOrder="12" ResultType="POINTS">
+			<ExtendedResults>
+				<ExtendedResult Type="LEAD" Code="HOLD" Value="9" />
+				<ExtendedResult Type="LEAD" Code="TIME" Value="1:56" />
+			</ExtendedResults>
+			<Competitor Code="9103318" Type="A" Organisation="POL">
+				<Composition>
+					<Athlete Order="1" Code="9103318" Bib="1">
+						<Description GivenName="Marcin" FamilyName="Dzienski" Gender="M" Organisation="POL" BirthDate="1993-01-22" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="6" Result="8" SortOrder="6" StartOrder="5" StartSortOrder="5" ResultType="POINTS">
+			<ExtendedResults>
+				<ExtendedResult Type="LEAD" Code="HOLD" Value="8" />
+				<ExtendedResult Type="LEAD" Code="TIME" Value="3:27" />
+			</ExtendedResults>
+			<Competitor Code="9102022" Type="A" Organisation="JPN">
+				<Composition>
+					<Athlete Order="1" Code="9102022" Bib="8">
+						<Description GivenName="Sorato" FamilyName="Anraku" Gender="M" Organisation="JPN" BirthDate="2006-11-14" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="7" Result="6" SortOrder="7" StartOrder="10" StartSortOrder="10" ResultType="POINTS">
+			<ExtendedResults>
+				<ExtendedResult Type="LEAD" Code="HOLD" Value="6" />
+				<ExtendedResult Type="LEAD" Code="TIME" Value="1:37" />
+			</ExtendedResults>
+			<Competitor Code="9104218" Type="A" Organisation="GBR">
+				<Composition>
+					<Athlete Order="1" Code="9104218" Bib="3">
+						<Description GivenName="Toby" FamilyName="Roberts" Gender="M" Organisation="GBR" BirthDate="2005-03-15" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="8" Result="1" SortOrder="8" StartOrder="2" StartSortOrder="2" ResultType="POINTS">
+			<ExtendedResults>
+				<ExtendedResult Type="LEAD" Code="HOLD" Value="1" />
+				<ExtendedResult Type="LEAD" Code="TIME" Value="3:37" />
+			</ExtendedResults>
+			<Competitor Code="9104216" Type="A" Organisation="GBR">
+				<Composition>
+					<Athlete Order="1" Code="9104216" Bib="11">
+						<Description GivenName="Maximillian" FamilyName="Milne" Gender="M" Organisation="GBR" BirthDate="2000-12-10" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="8" Result="1" SortOrder="9" StartOrder="1" StartSortOrder="1" ResultType="POINTS" Pty="YC">
+			<ExtendedResults>
+				<ExtendedResult Type="LEAD" Code="HOLD" Value="1" />
+				<ExtendedResult Type="LEAD" Code="TIME" Value="2:12" />
+			</ExtendedResults>
+			<Competitor Code="9100677" Type="A" Organisation="AUT">
+				<Composition>
+					<Athlete Order="1" Code="9100677" Bib="12">
+						<Description GivenName="Jakob" FamilyName="Schubert" Gender="M" Organisation="AUT" BirthDate="1990-12-31" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result IRM="DNS" SortOrder="10" StartOrder="7" StartSortOrder="7" ResultType="IRM">
+			<Competitor Code="9103677" Type="A" Organisation="FRA">
+				<Composition>
+					<Athlete Order="1" Code="9103677" Bib="6">
+						<Description GivenName="Sam" FamilyName="Avezou" Gender="M" Organisation="FRA" BirthDate="2001-03-22" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result IRM="DNS" SortOrder="11" StartOrder="4" StartSortOrder="4" ResultType="IRM">
+			<Competitor Code="9104217" Type="A" Organisation="GBR">
+				<Composition>
+					<Athlete Order="1" Code="9104217" Bib="9">
+						<Description GivenName="James" FamilyName="Pope" Gender="M" Organisation="GBR" BirthDate="1998-12-24" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result IRM="DQB" SortOrder="12" StartOrder="8" StartSortOrder="8" ResultType="IRM" Pty="YC">
+			<Competitor Code="9100679" Type="A" Organisation="AUT">
+				<Composition>
+					<Athlete Order="1" Code="9100679" Bib="5">
+						<Description GivenName="Nicolai" FamilyName="Uznik" Gender="M" Organisation="AUT" BirthDate="2000-08-11" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

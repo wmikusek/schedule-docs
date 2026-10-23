@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLB-------------------------------" DocumentType="DT_SCHEDULE_UPDATE" Version="4" FeedFlag="T" TimeStamp="2026-06-23T09:15:14.895+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<Unit Code="CLBMBOULDER-----------SFNL000100--" StartDate="2028-07-24T09:30:00+02:00" EndDate="2028-07-24T11:40:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL4" SessionCode="CLB01" ScheduleFlag="Y">
+			<ItemName Value="Semifinal" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Boulder &amp; Lead" />
+		</Unit>
+		<Unit Code="CLBMSPEED-------------QUAL0001SD--" StartDate="2028-07-24T13:45:00+02:00" EndDate="2028-07-24T14:00:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB02" ScheduleFlag="Y">
+			<ItemName Value="Qualification - Seeding heats" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBMSPEED-------------QUAL0002EL00" StartDate="2028-07-24T14:00:00+02:00" EndDate="2028-07-24T14:14:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB02" ScheduleFlag="Y">
+			<ItemName Value="Qualification - Elimination heats" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBWSPEED-------------QUAL0001SD--" StartDate="2028-07-24T14:45:00+02:00" EndDate="2028-07-24T15:10:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB02" ScheduleFlag="Y">
+			<ItemName Value="Qualification - Seeding heats" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBWSPEED-------------QUAL0002EL00" StartDate="2028-07-24T15:10:00+02:00" EndDate="2028-07-24T15:24:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB02" ScheduleFlag="Y">
+			<ItemName Value="Qualification - Elimination heats" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBWBOULDER-----------SFNL000100--" StartDate="2028-07-25T09:15:00+02:00" EndDate="2028-07-25T11:25:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL4" SessionCode="CLB03" ScheduleFlag="Y">
+			<ItemName Value="Semifinal" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Boulder &amp; Lead" />
+		</Unit>
+		<Unit Code="CLBMLEAD--------------SFNL000100--" StartDate="2028-07-25T18:45:00+02:00" EndDate="2028-07-25T20:00:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL4" SessionCode="CLB04" ScheduleFlag="Y">
+			<ItemName Value="Semifinal" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Boulder &amp; Lead" />
+		</Unit>
+		<Unit Code="CLBMSPEED-------------QFNL000100--" StartDate="2028-07-26T09:00:00+02:00" EndDate="2028-07-26T09:02:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Quarterfinal 1" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBMSPEED-------------QFNL000200--" StartDate="2028-07-26T09:02:00+02:00" EndDate="2028-07-26T09:04:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Quarterfinal 2" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBMSPEED-------------QFNL000300--" StartDate="2028-07-26T09:04:00+02:00" EndDate="2028-07-26T09:06:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Quarterfinal 3" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBMSPEED-------------QFNL000400--" StartDate="2028-07-26T09:06:00+02:00" EndDate="2028-07-26T09:08:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Quarterfinal 4" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBWSPEED-------------QFNL000100--" StartDate="2028-07-26T09:15:00+02:00" EndDate="2028-07-26T09:17:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Quarterfinal 1" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBWSPEED-------------QFNL000200--" StartDate="2028-07-26T09:17:00+02:00" EndDate="2028-07-26T09:19:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Quarterfinal 2" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBWSPEED-------------QFNL000300--" StartDate="2028-07-26T09:19:00+02:00" EndDate="2028-07-26T09:21:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Quarterfinal 3" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBWSPEED-------------QFNL000400--" StartDate="2028-07-26T09:21:00+02:00" EndDate="2028-07-26T09:23:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Quarterfinal 4" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBMSPEED-------------SFNL000100--" StartDate="2028-07-26T09:30:00+02:00" EndDate="2028-07-26T09:32:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Semifinal 1" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBMSPEED-------------SFNL000200--" StartDate="2028-07-26T09:32:00+02:00" EndDate="2028-07-26T09:34:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Semifinal 2" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBWSPEED-------------SFNL000100--" StartDate="2028-07-26T09:45:00+02:00" EndDate="2028-07-26T09:47:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Semifinal 1" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBWSPEED-------------SFNL000200--" StartDate="2028-07-26T09:47:00+02:00" EndDate="2028-07-26T09:49:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Semifinal 2" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBMSPEED-------------FNL-000200--" StartDate="2028-07-26T09:50:00+02:00" EndDate="2028-07-26T09:52:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="3" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Small Final" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBMSPEED-------------FNL-000100--" StartDate="2028-07-26T09:52:00+02:00" EndDate="2028-07-26T09:54:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="1" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Big Final" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBWSPEED-------------FNL-000200--" StartDate="2028-07-26T10:15:00+02:00" EndDate="2028-07-26T10:17:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="3" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Small Final" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBWSPEED-------------FNL-000100--" StartDate="2028-07-26T10:17:00+02:00" EndDate="2028-07-26T10:19:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="1" Venue="LCT" Location="CL3" SessionCode="CLB05" ScheduleFlag="S">
+			<ItemName Value="Big Final" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Speed" />
+		</Unit>
+		<Unit Code="CLBWLEAD--------------SFNL000100--" StartDate="2028-07-26T18:45:00+02:00" EndDate="2028-07-26T20:00:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="0" Venue="LCT" Location="CL4" SessionCode="CLB06" ScheduleFlag="Y">
+			<ItemName Value="Semifinal" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Boulder &amp; Lead" />
+		</Unit>
+		<Unit Code="CLBMBOULDER-----------FNL-000100--" StartDate="2028-07-27T09:00:00+02:00" EndDate="2028-07-27T10:50:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="1" Venue="LCT" Location="CL4" SessionCode="CLB07" ScheduleFlag="Y">
+			<ItemName Value="Final" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Boulder &amp; Lead" />
+		</Unit>
+		<Unit Code="CLBWBOULDER-----------FNL-000100--" StartDate="2028-07-28T09:00:00+02:00" EndDate="2028-07-28T10:50:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="1" Venue="LCT" Location="CL4" SessionCode="CLB08" ScheduleFlag="Y">
+			<ItemName Value="Final" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Boulder &amp; Lead" />
+		</Unit>
+		<Unit Code="CLBMLEAD--------------FNL-000100--" StartDate="2028-07-28T13:45:00+02:00" EndDate="2028-07-28T14:55:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="1" Venue="LCT" Location="CL4" SessionCode="CLB09" ScheduleFlag="Y">
+			<ItemName Value="Final" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Boulder &amp; Lead" />
+		</Unit>
+		<Unit Code="CLBWLEAD--------------FNL-000100--" StartDate="2028-07-29T09:30:00+02:00" EndDate="2028-07-29T10:40:00+02:00" HideEndDate="Y" PhaseType="3" ScheduleStatus="SCHEDULED" Medal="1" Venue="LCT" Location="CL4" SessionCode="CLB10" ScheduleFlag="Y">
+			<ItemName Value="Final" Language="ENG" />
+			<VenueDescription VenueName="Long Beach Climbing Thea" LocationName="Boulder &amp; Lead" />
+		</Unit>
+	</Competition>
+</OdfBody>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBMSPEED-------------QUAL0001SD--" DocumentType="DT_RESULT" ResultStatus="OFFICIAL" Version="75" FeedFlag="T" TimeStamp="2026-06-23T12:12:35.450+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<UnitDateTime StartDate="2026-06-23T11:08:22+02:00" />
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="1" Value="1">
+				<Extension Code="ID" Pos="1" Value="9100304" />
+				<Extension Code="ID" Pos="2" Value="9100309" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="2" Value="2">
+				<Extension Code="ID" Pos="1" Value="9103699" />
+				<Extension Code="ID" Pos="2" Value="9100329" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="3" Value="3">
+				<Extension Code="ID" Pos="1" Value="9100963" />
+				<Extension Code="ID" Pos="2" Value="9103698" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="4" Value="4">
+				<Extension Code="ID" Pos="1" Value="9108270" />
+				<Extension Code="ID" Pos="2" Value="9102693" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="5" Value="5">
+				<Extension Code="ID" Pos="1" Value="9103664" />
+				<Extension Code="ID" Pos="2" Value="9100380" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="6" Value="6">
+				<Extension Code="ID" Pos="1" Value="9106207" />
+				<Extension Code="ID" Pos="2" Value="9101185" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="7" Value="7">
+				<Extension Code="ID" Pos="1" Value="9101573" />
+				<Extension Code="ID" Pos="2" Value="9106056" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="8" Value="8">
+				<Extension Code="ID" Pos="1" Value="9100309" />
+				<Extension Code="ID" Pos="2" Value="9100304" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="9" Value="9">
+				<Extension Code="ID" Pos="1" Value="9100329" />
+				<Extension Code="ID" Pos="2" Value="9103699" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="10" Value="10">
+				<Extension Code="ID" Pos="1" Value="9103698" />
+				<Extension Code="ID" Pos="2" Value="9100963" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="11" Value="11">
+				<Extension Code="ID" Pos="1" Value="9102693" />
+				<Extension Code="ID" Pos="2" Value="9108270" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="12" Value="12">
+				<Extension Code="ID" Pos="1" Value="9100380" />
+				<Extension Code="ID" Pos="2" Value="9103664" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="13" Value="13">
+				<Extension Code="ID" Pos="1" Value="9101185" />
+				<Extension Code="ID" Pos="2" Value="9106207" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="SPEED" Code="HEAT" Pos="14" Value="14">
+				<Extension Code="ID" Pos="1" Value="9106056" />
+				<Extension Code="ID" Pos="2" Value="9101573" />
+			</ExtendedInfo>
+			<ExtendedInfo Type="UI" Code="ZONE_OPEN" Value="9:00" />
+			<ExtendedInfo Type="UI" Code="ZONE_CLOSE" Value="10:00" />
+			<SportDescription DisciplineName="Climbing" EventName="Men's Speed" Gender="M" SubEventName="Qualification - Seeding heats" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result Rank="1" Result="4.76" SortOrder="1" StartOrder="8" StartSortOrder="8" ResultType="TIME">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="10.52" SortOrder="7" Value2="8" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="4.76" SortOrder="1" Value2="1" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="1" Value="0.12" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="2" Value="0.14" />
+			</ExtendedResults>
+			<RecordIndicators>
+				<RecordIndicator Order="1" RecordType="WR" Code="CLBMSPEED-------------------------" />
+				<RecordIndicator Order="2" RecordType="OR" Code="CLBMSPEED-------------------------" />
+				<RecordIndicator Order="3" RecordType="PB" Code="CLBMSPEED-------------------------" />
+			</RecordIndicators>
+			<Competitor Code="9100309" Type="A" Organisation="USA">
+				<Composition>
+					<Athlete Order="1" Code="9100309" Bib="7">
+						<Description GivenName="Sam" FamilyName="Watson" Gender="M" Organisation="USA" BirthDate="2006-02-27" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="2" Result="5.03" SortOrder="2" StartOrder="6" StartSortOrder="6" ResultType="TIME">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="5.03" SortOrder="1" Value2="6" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="7.32" SortOrder="4" Value2="13" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="1" Value="0.18" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="2" Value="0.17" />
+			</ExtendedResults>
+			<RecordIndicators>
+				<RecordIndicator Order="1" RecordType="PB" Code="CLBMSPEED-------------------------" />
+			</RecordIndicators>
+			<Competitor Code="9106207" Type="A" Organisation="IRI">
+				<Composition>
+					<Athlete Order="1" Code="9106207" Bib="8">
+						<Description GivenName="Reza" FamilyName="Alipour Shenazandifard" Gender="M" Organisation="IRI" BirthDate="1994-04-29" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="3" Result="6.37" SortOrder="3" StartOrder="5" StartSortOrder="5" ResultType="TIME">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="Fall" SortOrder="10" Value2="5" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="6.37" SortOrder="2" Value2="12" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="1" Value="0.13" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="2" Value="0.14" />
+			</ExtendedResults>
+			<Competitor Code="9103664" Type="A" Organisation="FRA">
+				<Composition>
+					<Athlete Order="1" Code="9103664" Bib="10">
+						<Description GivenName="Bassa" FamilyName="Mawem" Gender="M" Organisation="FRA" BirthDate="1984-11-09" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="4" Result="6.72" SortOrder="4" StartOrder="13" StartSortOrder="13" ResultType="TIME">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="6.72" SortOrder="2" Value2="13" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="7.01" SortOrder="3" Value2="6" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="1" Value="0.19" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="2" Value="0.16" />
+			</ExtendedResults>
+			<Competitor Code="9101185" Type="A" Organisation="KOR">
+				<Composition>
+					<Athlete Order="1" Code="9101185" Bib="2">
+						<Description GivenName="Euncheol" FamilyName="Shin" Gender="M" Organisation="KOR" BirthDate="1999-05-27" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="5" Result="7.25" SortOrder="5" StartOrder="11" StartSortOrder="11" ResultType="TIME">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="7.25" SortOrder="3" Value2="11" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="10.39" SortOrder="8" Value2="4" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="1" Value="0.15" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="2" Value="0.17" />
+			</ExtendedResults>
+			<Competitor Code="9102693" Type="A" Organisation="ITA">
+				<Composition>
+					<Athlete Order="1" Code="9102693" Bib="11">
+						<Description GivenName="Matteo" FamilyName="Zurloni" Gender="M" Organisation="ITA" BirthDate="2002-03-20" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="6" Result="7.42" SortOrder="6" StartOrder="14" StartSortOrder="14" ResultType="TIME">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="7.42" SortOrder="4" Value2="14" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="8.51" SortOrder="6" Value2="7" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="1" Value="0.17" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="2" Value="0.13" />
+			</ExtendedResults>
+			<Competitor Code="9106056" Type="A" Organisation="UKR">
+				<Composition>
+					<Athlete Order="1" Code="9106056" Bib="1">
+						<Description GivenName="Yaroslav" FamilyName="Tkach" Gender="M" Organisation="UKR" BirthDate="2001-10-31" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="7" Result="8.33" SortOrder="7" StartOrder="7" StartSortOrder="7" ResultType="TIME" Pty="YC">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="8.51" SortOrder="5" Value2="7" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="8.33" SortOrder="5" Value2="14" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="1" Value="0.12" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="2" Value="0.16" />
+			</ExtendedResults>
+			<Competitor Code="9101573" Type="A" Organisation="KAZ">
+				<Composition>
+					<Athlete Order="1" Code="9101573" Bib="5">
+						<Description GivenName="Amir" FamilyName="Maimuratov" Gender="M" Organisation="KAZ" BirthDate="1995-07-19" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="8" Result="8.963" SortOrder="8" StartOrder="9" StartSortOrder="9" ResultType="TIME">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="Fall" SortOrder="9" Value2="9" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="8.963" SortOrder="7" Value2="2" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="1" Value="0.19" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="2" Value="0.14" />
+			</ExtendedResults>
+			<Competitor Code="9100329" Type="A" Organisation="INA">
+				<Composition>
+					<Athlete Order="1" Code="9100329" Bib="6">
+						<Description GivenName="Veddriq" FamilyName="Leonardo" Gender="M" Organisation="INA" BirthDate="1997-03-11" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="9" Result="8.963" SortOrder="9" StartOrder="2" StartSortOrder="2" ResultType="TIME">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="8.963" SortOrder="6" Value2="2" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="NA" SortOrder="11" Value2="9" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="1" Value="0.15" />
+			</ExtendedResults>
+			<Competitor Code="9103699" Type="A" Organisation="CHN">
+				<Composition>
+					<Athlete Order="1" Code="9103699" Bib="9">
+						<Description GivenName="Peng" FamilyName="Wu" Gender="M" Organisation="CHN" BirthDate="2002-10-15" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="10" Result="11.73" SortOrder="10" StartOrder="10" StartSortOrder="10" ResultType="TIME">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="Fall" SortOrder="8" Value2="10" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="11.73" SortOrder="9" Value2="3" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="1" Value="0.11" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="2" Value="0.12" />
+			</ExtendedResults>
+			<Competitor Code="9103698" Type="A" Organisation="CHN">
+				<Composition>
+					<Athlete Order="1" Code="9103698" Bib="3">
+						<Description GivenName="Jinbao" FamilyName="Long" Gender="M" Organisation="CHN" BirthDate="2000-11-08" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="11" Result="FS" SortOrder="11" StartOrder="3" StartSortOrder="3" ResultType="TIME">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="FS" SortOrder="12" Value2="3" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="NA" SortOrder="10" Value2="10" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="1" Value="0.07" />
+			</ExtendedResults>
+			<Competitor Code="9100963" Type="A" Organisation="NZL">
+				<Composition>
+					<Athlete Order="1" Code="9100963" Bib="4">
+						<Description GivenName="Julian" FamilyName="David" Gender="M" Organisation="NZL" BirthDate="2005-01-30" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result IRM="DNS" SortOrder="12" StartOrder="1" StartSortOrder="1" ResultType="IRM">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="NA" SortOrder="11" Value2="1" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="NA" SortOrder="12" Value2="8" />
+			</ExtendedResults>
+			<Competitor Code="9100304" Type="A" Organisation="USA">
+				<Composition>
+					<Athlete Order="1" Code="9100304" Bib="12">
+						<Description GivenName="Zach" FamilyName="Hammer" Gender="M" Organisation="USA" BirthDate="2006-05-29" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result IRM="DSQ" SortOrder="13" StartOrder="12" StartSortOrder="12" ResultType="IRM">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="DSQ" SortOrder="13" Value2="12" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="FS" SortOrder="14" Value2="5" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="1" Value="0.14" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="2" Value="0.10" />
+			</ExtendedResults>
+			<Competitor Code="9100380" Type="A" Organisation="INA">
+				<Composition>
+					<Athlete Order="1" Code="9100380" Bib="13">
+						<Description GivenName="Rahmad" FamilyName="Adi Mulyono" Gender="M" Organisation="INA" BirthDate="2000-10-31" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result IRM="DQB" SortOrder="14" StartOrder="4" StartSortOrder="4" ResultType="IRM">
+			<ExtendedResults>
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="1" Value="DQB" SortOrder="14" Value2="4" />
+				<ExtendedResult Type="SPEED" Code="TIME" Pos="2" Value="NA" SortOrder="13" Value2="11" />
+				<ExtendedResult Type="SPEED" Code="REACT_TIME" Pos="1" Value="0.12" />
+			</ExtendedResults>
+			<Competitor Code="9108270" Type="A" Organisation="RSA">
+				<Composition>
+					<Athlete Order="1" Code="9108270" Bib="14">
+						<Description GivenName="Joshua" FamilyName="Bruyns" Gender="M" Organisation="RSA" BirthDate="2003-08-01" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

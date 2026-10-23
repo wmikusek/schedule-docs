@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBMSPEED-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" TimeStamp="2026-06-23T09:17:33.987+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<Entry Code="9103698" Type="A" Bib="3" Organisation="CHN" SortOrder="1">
+			<Composition>
+				<Athlete Code="9103698" Order="1" Bib="3">
+					<Description GivenName="Jinbao" FamilyName="Long" Gender="M" Organisation="CHN" BirthDate="2000-11-08" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="23" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="WCH" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="3" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="5.03" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9103699" Type="A" Bib="9" Organisation="CHN" SortOrder="2">
+			<Composition>
+				<Athlete Code="9103699" Order="1" Bib="9">
+					<Description GivenName="Peng" FamilyName="Wu" Gender="M" Organisation="CHN" BirthDate="2002-10-15" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="28" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="1" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="4.86" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9103664" Type="A" Bib="10" Organisation="FRA" SortOrder="3">
+			<Composition>
+				<Athlete Code="9103664" Order="1" Bib="10">
+					<Description GivenName="Bassa" FamilyName="Mawem" Gender="M" Organisation="FRA" BirthDate="1984-11-09" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="34" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="CQEU" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="16" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="5.25" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9100380" Type="A" Bib="13" Organisation="INA" SortOrder="4">
+			<Composition>
+				<Athlete Code="9100380" Order="1" Bib="13">
+					<Description GivenName="Rahmad" FamilyName="Adi Mulyono" Gender="M" Organisation="INA" BirthDate="2000-10-31" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="45" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="CQAS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="4" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="4.97" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9100329" Type="A" Bib="6" Organisation="INA" SortOrder="5">
+			<Composition>
+				<Athlete Code="9100329" Order="1" Bib="6">
+					<Description GivenName="Veddriq" FamilyName="Leonardo" Gender="M" Organisation="INA" BirthDate="1997-03-11" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="12" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="2" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="4.83" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9106207" Type="A" Bib="8" Organisation="IRI" SortOrder="6">
+			<Composition>
+				<Athlete Code="9106207" Order="1" Bib="8">
+					<Description GivenName="Reza" FamilyName="Alipour Shenazandifard" Gender="M" Organisation="IRI" BirthDate="1994-04-29" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="16" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="24" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="5.04" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9102693" Type="A" Bib="11" Organisation="ITA" SortOrder="7">
+			<Composition>
+				<Athlete Code="9102693" Order="1" Bib="11">
+					<Description GivenName="Matteo" FamilyName="Zurloni" Gender="M" Organisation="ITA" BirthDate="2002-03-20" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="20" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="WCH" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="5" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="4.97" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9101573" Type="A" Bib="5" Organisation="KAZ" SortOrder="8">
+			<Composition>
+				<Athlete Code="9101573" Order="1" Bib="5">
+					<Description GivenName="Amir" FamilyName="Maimuratov" Gender="M" Organisation="KAZ" BirthDate="1995-07-19" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="16" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="25" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="4.26" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9101185" Type="A" Bib="2" Organisation="KOR" SortOrder="9">
+			<Composition>
+				<Athlete Code="9101185" Order="1" Bib="2">
+					<Description GivenName="Euncheol" FamilyName="Shin" Gender="M" Organisation="KOR" BirthDate="1999-05-27" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="22" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="15" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="5.09" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9100963" Type="A" Bib="4" Organisation="NZL" SortOrder="10">
+			<Composition>
+				<Athlete Code="9100963" Order="1" Bib="4">
+					<Description GivenName="Julian" FamilyName="David" Gender="M" Organisation="NZL" BirthDate="2005-01-30" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="33" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="CQOC" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="50" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="5.26" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9108270" Type="A" Bib="14" Organisation="RSA" SortOrder="11">
+			<Composition>
+				<Athlete Code="9108270" Order="1" Bib="14">
+					<Description GivenName="Joshua" FamilyName="Bruyns" Gender="M" Organisation="RSA" BirthDate="2003-08-01" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="26" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="CQAF" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="82" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="5.71" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9106056" Type="A" Bib="1" Organisation="UKR" SortOrder="12">
+			<Composition>
+				<Athlete Code="9106056" Order="1" Bib="1">
+					<Description GivenName="Yaroslav" FamilyName="Tkach" Gender="M" Organisation="UKR" BirthDate="2001-10-31" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="39" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="21" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="5.09" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9100304" Type="A" Bib="12" Organisation="USA" SortOrder="13">
+			<Composition>
+				<Athlete Code="9100304" Order="1" Bib="12">
+					<Description GivenName="Zach" FamilyName="Hammer" Gender="M" Organisation="USA" BirthDate="2006-05-29" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="31" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="OQS" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="28" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="5.17" />
+				</Athlete>
+			</Composition>
+		</Entry>
+		<Entry Code="9100309" Type="A" Bib="7" Organisation="USA" SortOrder="14">
+			<Composition>
+				<Athlete Code="9100309" Order="1" Bib="7">
+					<Description GivenName="Sam" FamilyName="Watson" Gender="M" Organisation="USA" BirthDate="2006-02-27" />
+					<ExtendedEntry Type="ENTRY" Code="ARM_SPAN" Value="39" />
+					<ExtendedEntry Type="ENTRY" Code="QUAL_TYPE" Value="CQAM" />
+					<ExtendedEntry Type="IFRANK" Code="RANK_WLD" Value="8" />
+					<ExtendedEntry Type="IFPOINTS" Code="PB" Value="4.79" />
+				</Athlete>
+			</Composition>
+		</Entry>
+	</Competition>
+</OdfBody>

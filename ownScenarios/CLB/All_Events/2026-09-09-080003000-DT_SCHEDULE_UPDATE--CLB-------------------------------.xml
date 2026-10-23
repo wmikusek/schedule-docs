@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLB-------------------------------" DocumentType="DT_SCHEDULE_UPDATE" Version="3" FeedFlag="T" TimeStamp="2026-06-23T09:14:54.911+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<Session SessionCode="CLB01" StartDate="2028-07-24T09:30:00+02:00" EndDate="2028-07-24T11:40:00+02:00" Leadin="0:00" Venue="LCT" VenueName="LB Climbing Theater" SessionType="MOR">
+			<SessionName Language="ENG" Value="Session 1" />
+		</Session>
+		<Session SessionCode="CLB02" StartDate="2028-07-24T13:45:00+02:00" EndDate="2028-07-24T15:25:00+02:00" Leadin="0:00" Venue="LCT" VenueName="LB Climbing Theater" SessionType="AFT">
+			<SessionName Language="ENG" Value="Session 2" />
+		</Session>
+		<Session SessionCode="CLB03" StartDate="2028-07-25T09:15:00+02:00" EndDate="2028-07-25T11:25:00+02:00" Leadin="0:00" Venue="LCT" VenueName="LB Climbing Theater" SessionType="MOR">
+			<SessionName Language="ENG" Value="Session 3" />
+		</Session>
+		<Session SessionCode="CLB04" StartDate="2028-07-25T18:45:00+02:00" EndDate="2028-07-25T20:00:00+02:00" Leadin="0:00" Venue="LCT" VenueName="LB Climbing Theater" SessionType="EVE">
+			<SessionName Language="ENG" Value="Session 4" />
+		</Session>
+		<Session SessionCode="CLB05" StartDate="2028-07-26T09:00:00+02:00" EndDate="2028-07-26T10:30:00+02:00" Leadin="0:00" Venue="LCT" VenueName="LB Climbing Theater" SessionType="MOR" Medal="2">
+			<SessionName Language="ENG" Value="Session 5" />
+		</Session>
+		<Session SessionCode="CLB06" StartDate="2028-07-26T18:45:00+02:00" EndDate="2028-07-26T20:00:00+02:00" Leadin="0:00" Venue="LCT" VenueName="LB Climbing Theater" SessionType="EVE">
+			<SessionName Language="ENG" Value="Session 6" />
+		</Session>
+		<Session SessionCode="CLB07" StartDate="2028-07-27T09:00:00+02:00" EndDate="2028-07-27T10:55:00+02:00" Leadin="0:00" Venue="LCT" VenueName="LB Climbing Theater" SessionType="MOR" Medal="1">
+			<SessionName Language="ENG" Value="Session 7" />
+		</Session>
+		<Session SessionCode="CLB08" StartDate="2028-07-28T09:00:00+02:00" EndDate="2028-07-28T10:55:00+02:00" Leadin="0:00" Venue="LCT" VenueName="LB Climbing Theater" SessionType="MOR" Medal="1">
+			<SessionName Language="ENG" Value="Session 8" />
+		</Session>
+		<Session SessionCode="CLB09" StartDate="2028-07-28T13:45:00+02:00" EndDate="2028-07-28T15:00:00+02:00" Leadin="0:00" Venue="LCT" VenueName="LB Climbing Theater" SessionType="AFT" Medal="1">
+			<SessionName Language="ENG" Value="Session 9" />
+		</Session>
+		<Session SessionCode="CLB10" StartDate="2028-07-29T09:30:00+02:00" EndDate="2028-07-29T10:45:00+02:00" Leadin="0:00" Venue="LCT" VenueName="LB Climbing Theater" SessionType="MOR" Medal="1">
+			<SessionName Language="ENG" Value="Session 10" />
+		</Session>
+	</Competition>
+</OdfBody>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBMBOULDER-----------SFNL000100--" DocumentType="DT_RESULT" ResultStatus="UNOFFICIAL" Version="102" FeedFlag="T" TimeStamp="2026-06-24T13:00:51.999+02:00" LogicalDate="2026-06-24" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<UnitDateTime StartDate="2026-06-24T10:12:07+02:00" />
+			<ExtendedInfo Type="UI" Code="ZONE_OPEN" Value="9:00" />
+			<ExtendedInfo Type="UI" Code="ZONE_CLOSE" Value="9:30" />
+			<ExtendedInfo Type="UI" Code="OBSERVE_TIME" Value="2" />
+			<ExtendedInfo Type="UI" Code="CLIMB_TIME" Value="4" />
+			<SportDescription DisciplineName="Climbing" EventName="Men's Boulder" Gender="M" SubEventName="Semifinal" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL4" LocationName="Boulder &amp; Lead" />
+		</ExtendedInfos>
+		<Result Rank="1" Result="100.0" SortOrder="1" StartOrder="12" StartSortOrder="12" ResultType="POINTS" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="1" Value="25.0" Value2="TOP" Arrive="1" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="2" Value="25.0" Value2="TOP" Arrive="1" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="3" Value="25.0" Value2="TOP" Arrive="1" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="4" Value="25.0" Value2="TOP" Arrive="1" />
+				<ExtendedResult Type="BOULDER" Code="ATTEMPTS" Value="4" />
+			</ExtendedResults>
+			<Competitor Code="9108272" Type="A" Organisation="RSA">
+				<Composition>
+					<Athlete Order="1" Code="9108272" Bib="1">
+						<Description GivenName="Mel" FamilyName="Janse van Rensburg" Gender="M" Organisation="RSA" BirthDate="2001-09-16" />
+						<EventUnitEntry Type="EUE" Code="START_TIME" Value="2028-07-25T10:16:45+02:00" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="2" Result="69.2" SortOrder="2" StartOrder="10" StartSortOrder="10" ResultType="POINTS" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="1" Value="9.5" Value2="ZONE" Arrive="11" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="2" Value="25.0" Value2="TOP" Arrive="1" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="3" Value="10.0" Value2="ZONE" Arrive="8" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="4" Value="24.7" Value2="TOP" Arrive="4" />
+				<ExtendedResult Type="BOULDER" Code="ATTEMPTS" Value="24" />
+			</ExtendedResults>
+			<Competitor Code="9104103" Type="A" Organisation="CZE">
+				<Composition>
+					<Athlete Order="1" Code="9104103" Bib="3">
+						<Description GivenName="Adam" FamilyName="Ondra" Gender="M" Organisation="CZE" BirthDate="1993-02-05" />
+						<EventUnitEntry Type="EUE" Code="START_TIME" Value="2028-07-25T10:08:15+02:00" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="3" Result="68.2" SortOrder="3" StartOrder="11" StartSortOrder="11" ResultType="POINTS" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="1" Value="9.7" Value2="ZONE" Arrive="8" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="2" Value="24.9" Value2="TOP" Arrive="2" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="3" Value="9.4" Value2="ZONE" Arrive="10" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="4" Value="24.2" Value2="TOP" Arrive="9" />
+				<ExtendedResult Type="BOULDER" Code="ATTEMPTS" Value="29" />
+			</ExtendedResults>
+			<Competitor Code="9102024" Type="A" Organisation="JPN">
+				<Composition>
+					<Athlete Order="1" Code="9102024" Bib="2">
+						<Description GivenName="Tomoa" FamilyName="Narasaki" Gender="M" Organisation="JPN" BirthDate="1996-06-22" />
+						<EventUnitEntry Type="EUE" Code="START_TIME" Value="2028-07-25T10:12:30+02:00" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="4" Result="59.3" SortOrder="4" StartOrder="5" StartSortOrder="5" ResultType="POINTS" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="1" Value="10.0" Value2="ZONE" Arrive="10" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="2" Value="24.5" Value2="TOP" Arrive="6" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="3" Value="0.0" Arrive="6" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="4" Value="24.8" Value2="TOP" Arrive="3" />
+				<ExtendedResult Type="BOULDER" Code="ATTEMPTS" Value="25" />
+			</ExtendedResults>
+			<Competitor Code="9103915" Type="A" Organisation="ESP">
+				<Composition>
+					<Athlete Order="1" Code="9103915" Bib="8">
+						<Description GivenName="Alberto" FamilyName="Gines Lopez" Gender="M" Organisation="ESP" BirthDate="2002-10-23" />
+						<EventUnitEntry Type="EUE" Code="START_TIME" Value="2028-07-25T09:47:00+02:00" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="5" Result="59.3" SortOrder="5" StartOrder="3" StartSortOrder="3" ResultType="POINTS" Pty="YC" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="1" Value="24.5" Value2="TOP" Arrive="6" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="2" Value="10.0" Value2="ZONE" Arrive="7" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="3" Value="0.0" Arrive="3" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="4" Value="24.8" Value2="TOP" Arrive="3" />
+				<ExtendedResult Type="BOULDER" Code="ATTEMPTS" Value="19" />
+			</ExtendedResults>
+			<Competitor Code="9100303" Type="A" Organisation="USA">
+				<Composition>
+					<Athlete Order="1" Code="9100303" Bib="10">
+						<Description GivenName="Jesse" FamilyName="Grupper" Gender="M" Organisation="USA" BirthDate="1997-01-06" />
+						<EventUnitEntry Type="EUE" Code="START_TIME" Value="2028-07-25T09:38:30+02:00" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="6" Result="53.6" SortOrder="6" StartOrder="6" StartSortOrder="6" ResultType="POINTS" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="1" Value="10.0" Value2="ZONE" Arrive="10" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="2" Value="24.8" Value2="TOP" Arrive="3" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="3" Value="10.0" Value2="ZONE" Arrive="8" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="4" Value="9.8" Value2="ZONE" Arrive="13" />
+				<ExtendedResult Type="BOULDER" Code="ATTEMPTS" Value="34" />
+			</ExtendedResults>
+			<Competitor Code="9107704" Type="A" Organisation="SUI">
+				<Composition>
+					<Athlete Order="1" Code="9107704" Bib="7">
+						<Description GivenName="Sascha" FamilyName="Lehmann" Gender="M" Organisation="SUI" BirthDate="1998-02-03" />
+						<EventUnitEntry Type="EUE" Code="START_TIME" Value="2028-07-25T09:51:15+02:00" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="6" Result="53.6" SortOrder="7" StartOrder="4" StartSortOrder="4" ResultType="POINTS" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="1" Value="9.8" Value2="ZONE" Arrive="10" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="2" Value="10.0" Value2="ZONE" Arrive="9" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="3" Value="24.8" Value2="TOP" Arrive="3" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="4" Value="10.0" Value2="ZONE" />
+				<ExtendedResult Type="BOULDER" Code="ATTEMPTS" Value="22" />
+			</ExtendedResults>
+			<Competitor Code="9103696" Type="A" Organisation="CHN">
+				<Composition>
+					<Athlete Order="1" Code="9103696" Bib="9">
+						<Description GivenName="Yufei" FamilyName="Pan" Gender="M" Organisation="CHN" BirthDate="2000-06-23" />
+						<EventUnitEntry Type="EUE" Code="START_TIME" Value="2028-07-25T09:42:45+02:00" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="8" Result="0.0" SortOrder="8" StartOrder="2" StartSortOrder="2" ResultType="POINTS" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="1" Value="0.0" Arrive="13" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="2" Value="0.0" Arrive="19" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="3" Value="0.0" Arrive="8" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="4" Value="0.0" Arrive="15" />
+				<ExtendedResult Type="BOULDER" Code="ATTEMPTS" Value="55" />
+			</ExtendedResults>
+			<Competitor Code="9102760" Type="A" Organisation="BEL">
+				<Composition>
+					<Athlete Order="1" Code="9102760" Bib="11">
+						<Description GivenName="Hannes" FamilyName="van Duysen" Gender="M" Organisation="BEL" BirthDate="2004-09-04" />
+						<EventUnitEntry Type="EUE" Code="START_TIME" Value="2028-07-25T09:34:15+02:00" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result Rank="8" Result="0.0" SortOrder="9" StartOrder="1" StartSortOrder="1" ResultType="POINTS" QualificationMark="Q">
+			<ExtendedResults>
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="1" Value="0.0" Arrive="10" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="2" Value="0.0" Arrive="10" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="3" Value="0.0" Arrive="8" />
+				<ExtendedResult Type="BOULDER" Code="RESULT" Pos="4" Value="0.0" Arrive="12" />
+				<ExtendedResult Type="BOULDER" Code="ATTEMPTS" Value="40" />
+			</ExtendedResults>
+			<Competitor Code="9100301" Type="A" Organisation="USA">
+				<Composition>
+					<Athlete Order="1" Code="9100301" Bib="12">
+						<Description GivenName="Colin" FamilyName="Duffy" Gender="M" Organisation="USA" BirthDate="2003-12-10" />
+						<EventUnitEntry Type="EUE" Code="START_TIME" Value="2028-07-25T09:30:00+02:00" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result IRM="DNS" SortOrder="10" StartOrder="8" StartSortOrder="8" ResultType="IRM">
+			<Competitor Code="9101181" Type="A" Organisation="SLO">
+				<Composition>
+					<Athlete Order="1" Code="9101181" Bib="5">
+						<Description GivenName="Luka" FamilyName="Potocar" Gender="M" Organisation="SLO" BirthDate="2001-11-21" />
+						<EventUnitEntry Type="EUE" Code="START_TIME" Value="2028-07-25T09:59:45+02:00" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result IRM="DSQ" SortOrder="11" StartOrder="7" StartSortOrder="7" ResultType="IRM" Pty="YC">
+			<Competitor Code="9108113" Type="A" Organisation="AUS">
+				<Composition>
+					<Athlete Order="1" Code="9108113" Bib="6">
+						<Description GivenName="Campbell" FamilyName="Harrison" Gender="M" Organisation="AUS" BirthDate="1997-06-28" />
+						<EventUnitEntry Type="EUE" Code="START_TIME" Value="2028-07-25T09:55:30+02:00" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result IRM="DQB" SortOrder="12" StartOrder="9" StartSortOrder="9" ResultType="IRM">
+			<Competitor Code="9101180" Type="A" Organisation="KOR">
+				<Composition>
+					<Athlete Order="1" Code="9101180" Bib="4">
+						<Description GivenName="Dohyun" FamilyName="Lee" Gender="M" Organisation="KOR" BirthDate="2002-10-08" />
+						<EventUnitEntry Type="EUE" Code="START_TIME" Value="2028-07-25T10:04:00+02:00" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>

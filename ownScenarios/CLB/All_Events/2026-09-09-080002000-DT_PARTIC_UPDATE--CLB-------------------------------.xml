@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLB-------------------------------" DocumentType="DT_PARTIC_UPDATE" Version="1" FeedFlag="T" TimeStamp="2026-06-23T09:02:17.141+02:00" LogicalDate="2026-06-23" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<Participant Code="9100301" Parent="9100301" Status="CNF" GivenName="Colin" FamilyName="Duffy" PassportGivenName="COLIN PATRICK" PassportFamilyName="DUFFY" PrintName="DUFFY Colin" PrintInitialName="DUFFY C" TVName="Colin DUFFY" TVInitialName="C. DUFFY" TVFamilyName="DUFFY" Organisation="USA" Gender="M" BirthDate="2003-12-10" Height="170" PlaceofBirth="LOUISVILLE" CountryofBirth="USA" Nationality="USA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100302" Parent="9100302" Status="CNF" GivenName="Natalia" FamilyName="Grossman" PassportGivenName="NATALIA" PassportFamilyName="GROSSMAN" PrintName="GROSSMAN Natalia" PrintInitialName="GROSSMAN N" TVName="Natalia GROSSMAN" TVInitialName="N. GROSSMAN" TVFamilyName="GROSSMAN" Organisation="USA" Gender="F" BirthDate="2001-06-22" Height="161" PlaceofBirth="SANTA CRUZ" CountryofBirth="USA" Nationality="USA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100303" Parent="9100303" Status="CNF" GivenName="Jesse" FamilyName="Grupper" PassportGivenName="JESSE LEIB" PassportFamilyName="GRUPPER" PrintName="GRUPPER Jesse" PrintInitialName="GRUPPER J" TVName="Jesse GRUPPER" TVInitialName="J. GRUPPER" TVFamilyName="GRUPPER" Organisation="USA" Gender="M" BirthDate="1997-01-06" Height="181" PlaceofBirth="NEW YORK" CountryofBirth="USA" Nationality="USA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100304" Parent="9100304" Status="CNF" GivenName="Zach" FamilyName="Hammer" PassportGivenName="ZACHARY JAMES" PassportFamilyName="HAMMER" PrintName="HAMMER Zach" PrintInitialName="HAMMER Z" TVName="Zach HAMMER" TVInitialName="Z. HAMMER" TVFamilyName="HAMMER" Organisation="USA" Gender="M" BirthDate="2006-05-29" Height="170" PlaceofBirth="ANN ARBOR" CountryofBirth="USA" Nationality="USA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100305" Parent="9100305" Status="CNF" GivenName="Emma" FamilyName="Hunt" PassportGivenName="EMMA SARAH" PassportFamilyName="HUNT" PrintName="HUNT Emma" PrintInitialName="HUNT E" TVName="Emma HUNT" TVInitialName="E. HUNT" TVFamilyName="HUNT" Organisation="USA" Gender="F" BirthDate="2003-04-01" Height="174" PlaceofBirth="MARIETTA" CountryofBirth="USA" Nationality="USA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100306" Parent="9100306" Status="CNF" GivenName="Piper" FamilyName="Kelly" PassportGivenName="PIPER LAUREN" PassportFamilyName="KELLY" PrintName="KELLY Piper" PrintInitialName="KELLY P" TVName="Piper KELLY" TVInitialName="P. KELLY" TVFamilyName="KELLY" Organisation="USA" Gender="F" BirthDate="1999-10-03" Height="165" PlaceofBirth="INDIANAPOLIS" CountryofBirth="USA" Nationality="USA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100307" Parent="9100307" Status="CNF" GivenName="Brooke" FamilyName="Raboutou" PassportGivenName="BROOKE" PassportFamilyName="RABOUTOU" PrintName="RABOUTOU Brooke" PrintInitialName="RABOUTOU B" TVName="Brooke RABOUTOU" TVInitialName="B. RABOUTOU" TVFamilyName="RABOUTOU" Organisation="USA" Gender="F" BirthDate="2001-04-09" Height="157" PlaceofBirth="BOULDER" CountryofBirth="USA" Nationality="USA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100309" Parent="9100309" Status="CNF" GivenName="Sam" FamilyName="Watson" PassportGivenName="SAMUEL RYAN" PassportFamilyName="WATSON" PrintName="WATSON Sam" PrintInitialName="WATSON S" TVName="Sam WATSON" TVInitialName="S. WATSON" TVFamilyName="WATSON" Organisation="USA" Gender="M" BirthDate="2006-02-27" Height="173" PlaceofBirth="FRISCO" CountryofBirth="USA" Nationality="USA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100329" Parent="9100329" Status="CNF" GivenName="Veddriq" FamilyName="Leonardo" PassportGivenName="VEDDRIQ" PassportFamilyName="LEONARDO" PrintName="LEONARDO Veddriq" PrintInitialName="LEONARDO V" TVName="Veddriq LEONARDO" TVInitialName="V. LEONARDO" TVFamilyName="LEONARDO" Organisation="INA" Gender="M" BirthDate="1997-03-11" Height="162" PlaceofBirth="PONTIANAK" CountryofBirth="INA" Nationality="INA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100380" Parent="9100380" Status="CNF" GivenName="Rahmad" FamilyName="Adi Mulyono" PassportGivenName="RAHMAD" PassportFamilyName="MULYONO" PrintName="ADI MULYONO Rahmad" PrintInitialName="ADI MULYONO R" TVName="Rahmad ADI MULYONO" TVInitialName="R. ADI MULYONO" TVFamilyName="ADI MULYONO" Organisation="INA" Gender="M" BirthDate="2000-10-31" Height="168" PlaceofBirth="SURABAYA" CountryofBirth="INA" PlaceofResidence="JAKARTA" CountryofResidence="INA" Nationality="INA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100540" Parent="9100540" Status="CNF" GivenName="Desak Made" FamilyName="Made Rita Kusuma Dewi" PassportGivenName="DESAK MADE" PassportFamilyName="DEWI" PrintName="MADE RITA KUSUMA DEWI Desak Made" PrintInitialName="MADE RITA KUSUMA ." TVName="Desak Made MADE RITA KUSUMA DEWI" TVInitialName="MADE RITA KUSUMA ." TVFamilyName="MADE RITA KUSUMA DEWI" Organisation="INA" Gender="F" BirthDate="2001-01-24" Height="165" PlaceofBirth="SAMBANGAN" CountryofBirth="INA" PlaceofResidence="JAKARTA" CountryofResidence="INA" Nationality="INA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100565" Parent="9100565" Status="CNF" GivenName="Rajiah" FamilyName="Sallsabillah" PassportGivenName="RAJIAH" PassportFamilyName="SALLSABILLAH" PrintName="SALLSABILLAH Rajiah" PrintInitialName="SALLSABILLAH R" TVName="Rajiah SALLSABILLAH" TVInitialName="R. SALLSABILLAH" TVFamilyName="SALLSABILLAH" Organisation="INA" Gender="F" BirthDate="1999-04-30" Height="158" PlaceofBirth="TANGERANG" CountryofBirth="INA" Nationality="INA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100673" Parent="9100673" Status="CNF" GivenName="Jessica" FamilyName="Pilz" PassportGivenName="JESSICA" PassportFamilyName="PILZ" PrintName="PILZ Jessica" PrintInitialName="PILZ J" TVName="Jessica PILZ" TVInitialName="J. PILZ" TVFamilyName="PILZ" Organisation="AUT" Gender="F" BirthDate="1996-11-22" Height="165" PlaceofBirth="AMSTETTEN" CountryofBirth="AUT" Nationality="AUT" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100677" Parent="9100677" Status="CNF" GivenName="Jakob" FamilyName="Schubert" PassportGivenName="JAKOB" PassportFamilyName="SCHUBERT" PrintName="SCHUBERT Jakob" PrintInitialName="SCHUBERT J" TVName="Jakob SCHUBERT" TVInitialName="J. SCHUBERT" TVFamilyName="SCHUBERT" Organisation="AUT" Gender="M" BirthDate="1990-12-31" Height="175" PlaceofBirth="RUM" CountryofBirth="AUT" Nationality="AUT" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100679" Parent="9100679" Status="CNF" GivenName="Nicolai" FamilyName="Uznik" PassportGivenName="NICOLAI" PassportFamilyName="UZNIK" PrintName="UZNIK Nicolai" PrintInitialName="UZNIK N" TVName="Nicolai UZNIK" TVInitialName="N. UZNIK" TVFamilyName="UZNIK" Organisation="AUT" Gender="M" BirthDate="2000-08-11" PlaceofBirth="VILLACH" CountryofBirth="AUT" Nationality="AUT" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100962" Parent="9100962" Status="CNF" GivenName="Sarah" FamilyName="Tetzlaff" PassportGivenName="SARAH LOUISE" PassportFamilyName="TETZLAFF" PrintName="TETZLAFF Sarah" PrintInitialName="TETZLAFF S" TVName="Sarah TETZLAFF" TVInitialName="S. TETZLAFF" TVFamilyName="TETZLAFF" Organisation="NZL" Gender="F" BirthDate="2000-04-18" Height="173" PlaceofBirth="LOWER HUTT" CountryofBirth="NZL" Nationality="NZL" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9100963" Parent="9100963" Status="CNF" GivenName="Julian" FamilyName="David" PassportGivenName="JULIAN RONAN" PassportFamilyName="DAVID" PrintName="DAVID Julian" PrintInitialName="DAVID J" TVName="Julian DAVID" TVInitialName="J. DAVID" TVFamilyName="DAVID" Organisation="NZL" Gender="M" BirthDate="2005-01-30" Height="154" PlaceofBirth="LA ROCHE-SUR-YON" CountryofBirth="FRA" Nationality="NZL" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9101131" Parent="9101131" Status="CNF" GivenName="Janja" FamilyName="Garnbret" PassportGivenName="JANJA" PassportFamilyName="GARNBRET" PrintName="GARNBRET Janja" PrintInitialName="GARNBRET J" TVName="Janja GARNBRET" TVInitialName="J. GARNBRET" TVFamilyName="GARNBRET" Organisation="SLO" Gender="F" BirthDate="1999-03-12" Height="164" PlaceofBirth="SLOVENJ GRADEC" CountryofBirth="SLO" Nationality="SLO" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9101180" Parent="9101180" Status="CNF" GivenName="Dohyun" FamilyName="Lee" PassportGivenName="DOHYUN" PassportFamilyName="LEE" PrintName="LEE Dohyun" PrintInitialName="LEE D" TVName="LEE Dohyun" TVInitialName="LEE D." TVFamilyName="LEE" Organisation="KOR" Gender="M" BirthDate="2002-10-08" Height="176" PlaceofBirth="SEOUL" CountryofBirth="KOR" Nationality="KOR" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9101181" Parent="9101181" Status="CNF" GivenName="Luka" FamilyName="Potocar" PassportGivenName="LUKA" PassportFamilyName="POTOCAR" PrintName="POTOCAR Luka" PrintInitialName="POTOCAR L" TVName="Luka POTOCAR" TVInitialName="L. POTOCAR" TVFamilyName="POTOCAR" Organisation="SLO" Gender="M" BirthDate="2001-11-21" Height="177" PlaceofBirth="JESENICE" CountryofBirth="SLO" Nationality="SLO" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9101183" Parent="9101183" Status="CNF" GivenName="Chaehyun" FamilyName="Seo" PassportGivenName="CHAEHYUN" PassportFamilyName="SEO" PrintName="SEO Chaehyun" PrintInitialName="SEO C" TVName="SEO Chaehyun" TVInitialName="SEO C." TVFamilyName="SEO" Organisation="KOR" Gender="F" BirthDate="2003-11-01" Height="164" PlaceofBirth="SEOUL" CountryofBirth="KOR" Nationality="KOR" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9101185" Parent="9101185" Status="CNF" GivenName="Euncheol" FamilyName="Shin" PassportGivenName="EUNCHEOL" PassportFamilyName="SHIN" PrintName="SHIN Euncheol" PrintInitialName="SHIN E" TVName="SHIN Euncheol" TVInitialName="SHIN E." TVFamilyName="SHIN" Organisation="KOR" Gender="M" BirthDate="1999-05-27" Height="173" PlaceofBirth="SEOUL" CountryofBirth="KOR" Nationality="KOR" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9101206" Parent="9101206" Status="CNF" GivenName="Mia" FamilyName="Krampl" PassportGivenName="MIA" PassportFamilyName="KRAMPL" PrintName="KRAMPL Mia" PrintInitialName="KRAMPL M" TVName="Mia KRAMPL" TVInitialName="M. KRAMPL" TVFamilyName="KRAMPL" Organisation="SLO" Gender="F" BirthDate="2000-07-21" Height="164" PlaceofBirth="KRANJ" CountryofBirth="SLO" Nationality="SLO" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9101573" Parent="9101573" Status="CNF" GivenName="Amir" FamilyName="Maimuratov" PassportGivenName="AMIR" PassportFamilyName="MAIMURATOV" PrintName="MAIMURATOV Amir" PrintInitialName="MAIMURATOV A" TVName="Amir MAIMURATOV" TVInitialName="A. MAIMURATOV" TVFamilyName="MAIMURATOV" Organisation="KAZ" Gender="M" BirthDate="1995-07-19" Height="180" PlaceofBirth="URDZHAR" CountryofBirth="KAZ" PlaceofResidence="ALMATY" CountryofResidence="KAZ" Nationality="KAZ" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102022" Parent="9102022" Status="CNF" GivenName="Sorato" FamilyName="Anraku" PassportGivenName="SORATO" PassportFamilyName="ANRAKU" PrintName="ANRAKU Sorato" PrintInitialName="ANRAKU S" TVName="ANRAKU Sorato" TVInitialName="ANRAKU S." TVFamilyName="ANRAKU" Organisation="JPN" Gender="M" BirthDate="2006-11-14" Height="168" PlaceofBirth="CHIBA" CountryofBirth="JPN" Nationality="JPN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102023" Parent="9102023" Status="CNF" GivenName="Ai" FamilyName="Mori" PassportGivenName="AI" PassportFamilyName="MORI" PrintName="MORI Ai" PrintInitialName="MORI A" TVName="MORI Ai" TVInitialName="MORI A." TVFamilyName="MORI" Organisation="JPN" Gender="F" BirthDate="2003-09-17" Height="154" PlaceofBirth="KANAGAWA" CountryofBirth="JPN" Nationality="JPN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102024" Parent="9102024" Status="CNF" GivenName="Tomoa" FamilyName="Narasaki" PassportGivenName="TOMOA" PassportFamilyName="NARASAKI" PrintName="NARASAKI Tomoa" PrintInitialName="NARASAKI T" TVName="NARASAKI Tomoa" TVInitialName="NARASAKI T." TVFamilyName="NARASAKI" Organisation="JPN" Gender="M" BirthDate="1996-06-22" Height="170" PlaceofBirth="TOCHIGI" CountryofBirth="JPN" Nationality="JPN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102025" Parent="9102025" Status="CNF" GivenName="Natsumi" FamilyName="Hayashi" PassportGivenName="NATSUMI" PassportFamilyName="HAYASHI" PrintName="HAYASHI Natsumi" PrintInitialName="HAYASHI N" TVName="HAYASHI Natsumi" TVInitialName="HAYASHI N." TVFamilyName="HAYASHI" Organisation="JPN" Gender="F" BirthDate="1991-12-31" PlaceofBirth="OSAKA" CountryofBirth="JPN" Nationality="JPN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102027" Parent="9102027" Status="CNF" GivenName="Ai" FamilyName="Takeuchi" PassportGivenName="AI" PassportFamilyName="TAKEUCHI" PrintName="TAKEUCHI Ai" PrintInitialName="TAKEUCHI A" TVName="TAKEUCHI Ai" TVInitialName="TAKEUCHI A." TVFamilyName="TAKEUCHI" Organisation="JPN" Gender="F" BirthDate="2005-08-08" PlaceofBirth="SHIGA" CountryofBirth="JPN" Nationality="JPN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102028" Parent="9102028" Status="CNF" GivenName="Ryu" FamilyName="Nakagawa" PassportGivenName="RYU" PassportFamilyName="NAKAGAWA" PrintName="NAKAGAWA Ryu" PrintInitialName="NAKAGAWA R" TVName="NAKAGAWA Ryu" TVInitialName="NAKAGAWA R." TVFamilyName="NAKAGAWA" Organisation="JPN" Gender="F" BirthDate="2004-03-02" PlaceofBirth="OSAKA" CountryofBirth="JPN" Nationality="JPN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102031" Parent="9102031" Status="CNF" GivenName="Karin" FamilyName="Hayashi" PassportGivenName="KARIN" PassportFamilyName="HAYASHI" PrintName="HAYASHI Karin" PrintInitialName="HAYASHI K" TVName="HAYASHI Karin" TVInitialName="HAYASHI K." TVFamilyName="HAYASHI" Organisation="JPN" Gender="F" BirthDate="2005-03-20" PlaceofBirth="TOTTORI" CountryofBirth="JPN" Nationality="JPN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102034" Parent="9102034" Status="CNF" GivenName="Miho" FamilyName="Nonaka" PassportGivenName="MIHO" PassportFamilyName="NONAKA" PrintName="NONAKA Miho" PrintInitialName="NONAKA M" TVName="NONAKA Miho" TVInitialName="NONAKA M." TVFamilyName="NONAKA" Organisation="JPN" Gender="F" BirthDate="1997-05-21" Height="162" PlaceofBirth="TOKYO" CountryofBirth="JPN" Nationality="JPN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102086" Parent="9102086" Status="CNF" GivenName="Alexander" FamilyName="Megos" PassportGivenName="ALEXANDER" PassportFamilyName="MEGOS" PrintName="MEGOS Alexander" PrintInitialName="MEGOS A" TVName="Alexander MEGOS" TVInitialName="A. MEGOS" TVFamilyName="MEGOS" Organisation="GER" Gender="M" BirthDate="1993-08-12" Height="176" PlaceofBirth="ERLANGEN" CountryofBirth="GER" Nationality="GER" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102087" Parent="9102087" Status="CNF" GivenName="Yannick" FamilyName="Flohe" PassportGivenName="YANNICK" PassportFamilyName="FLOHE" PrintName="FLOHE Yannick" PrintInitialName="FLOHE Y" TVName="Yannick FLOHE" TVInitialName="Y. FLOHE" TVFamilyName="FLOHE" Organisation="GER" Gender="M" BirthDate="1999-08-14" Height="179" PlaceofBirth="ESSEN" CountryofBirth="GER" Nationality="GER" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102089" Parent="9102089" Status="CNF" GivenName="Lucia" FamilyName="Doerffel" PassportGivenName="LUCIA" PassportFamilyName="DOERFFEL" PrintName="DOERFFEL Lucia" PrintInitialName="DOERFFEL L" TVName="Lucia DOERFFEL" TVInitialName="L. DOERFFEL" TVFamilyName="DOERFFEL" Organisation="GER" Gender="F" BirthDate="2000-03-22" Height="166" PlaceofBirth="CHEMNITZ" CountryofBirth="GER" Nationality="GER" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102693" Parent="9102693" Status="CNF" GivenName="Matteo" FamilyName="Zurloni" PassportGivenName="MATTEO" PassportFamilyName="ZURLONI" PrintName="ZURLONI Matteo" PrintInitialName="ZURLONI M" TVName="Matteo ZURLONI" TVInitialName="M. ZURLONI" TVFamilyName="ZURLONI" Organisation="ITA" Gender="M" BirthDate="2002-03-20" Height="170" PlaceofBirth="SEGRATE" CountryofBirth="ITA" Nationality="ITA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102695" Parent="9102695" Status="CNF" GivenName="Beatrice" FamilyName="Colli" PassportGivenName="BEATRICE ANNA" PassportFamilyName="COLLI" PrintName="COLLI Beatrice" PrintInitialName="COLLI B" TVName="Beatrice COLLI" TVInitialName="B. COLLI" TVFamilyName="COLLI" Organisation="ITA" Gender="F" BirthDate="2004-10-10" Height="172" PlaceofBirth="SONDRIO" CountryofBirth="ITA" Nationality="ITA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102697" Parent="9102697" Status="CNF" GivenName="Laura" FamilyName="Rogora" PassportGivenName="LAURA" PassportFamilyName="ROGORA" PrintName="ROGORA Laura" PrintInitialName="ROGORA L" TVName="Laura ROGORA" TVInitialName="L. ROGORA" TVFamilyName="ROGORA" Organisation="ITA" Gender="F" BirthDate="2001-04-28" Height="153" PlaceofBirth="ROMA" CountryofBirth="ITA" Nationality="ITA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102698" Parent="9102698" Status="CNF" GivenName="Camilla" FamilyName="Moroni" PassportGivenName="CAMILLA" PassportFamilyName="MORONI" PrintName="MORONI Camilla" PrintInitialName="MORONI C" TVName="Camilla MORONI" TVInitialName="C. MORONI" TVFamilyName="MORONI" Organisation="ITA" Gender="F" BirthDate="2001-07-08" Height="158" PlaceofBirth="GENOVA" CountryofBirth="ITA" Nationality="ITA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9102760" Parent="9102760" Status="CNF" GivenName="Hannes" FamilyName="van Duysen" PassportGivenName="HANNES" PassportFamilyName="VAN DUYSEN" PrintName="van DUYSEN Hannes" PrintInitialName="van DUYSEN H" TVName="Hannes van DUYSEN" TVInitialName="H. van DUYSEN" TVFamilyName="van DUYSEN" Organisation="BEL" Gender="M" BirthDate="2004-09-04" Height="173" PlaceofBirth="GENT" CountryofBirth="BEL" Nationality="BEL" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103318" Parent="9103318" Status="CNF" GivenName="Marcin" FamilyName="Dzienski" PassportGivenName="MARCIN" PassportFamilyName="DZIENSKI" PrintName="DZIENSKI Marcin" PrintInitialName="DZIENSKI M" TVName="Marcin DZIENSKI" TVInitialName="M. DZIENSKI" TVFamilyName="DZIENSKI" Organisation="POL" Gender="M" BirthDate="1993-01-22" PlaceofBirth="TARNOW" CountryofBirth="POL" Nationality="POL" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103321" Parent="9103321" Status="CNF" GivenName="Aleksandra" FamilyName="Kalucka" PassportGivenName="ALEKSANDRA" PassportFamilyName="KALUCKA" PrintName="KALUCKA Aleksandra" PrintInitialName="KALUCKA A" TVName="Aleksandra KALUCKA" TVInitialName="A. KALUCKA" TVFamilyName="KALUCKA" Organisation="POL" Gender="F" BirthDate="2001-12-25" Height="164" PlaceofBirth="TARNOW" CountryofBirth="PAK" Nationality="POL" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103327" Parent="9103327" Status="CNF" GivenName="Aleksandra" FamilyName="Miroslaw" PassportGivenName="ALEKSANDRA" PassportFamilyName="MIROSLAW" PrintName="MIROSLAW Aleksandra" PrintInitialName="MIROSLAW A" TVName="Aleksandra MIROSLAW" TVInitialName="A. MIROSLAW" TVFamilyName="MIROSLAW" Organisation="POL" Gender="F" BirthDate="1994-02-02" Height="162" PlaceofBirth="LUBLIN" CountryofBirth="POL" Nationality="POL" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103663" Parent="9103663" Status="CNF" GivenName="Oriane" FamilyName="Bertone" PassportGivenName="ORIANE" PassportFamilyName="BERTONE" PrintName="BERTONE Oriane" PrintInitialName="BERTONE O" TVName="Oriane BERTONE" TVInitialName="O. BERTONE" TVFamilyName="BERTONE" Organisation="FRA" Gender="F" BirthDate="2005-03-10" Height="164" PlaceofBirth="NICE" CountryofBirth="FRA" Nationality="FRA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103664" Parent="9103664" Status="CNF" GivenName="Bassa" FamilyName="Mawem" PassportGivenName="BASSA" PassportFamilyName="MAWEN" PrintName="MAWEM Bassa" PrintInitialName="MAWEM B" TVName="Bassa MAWEM" TVInitialName="B. MAWEM" TVFamilyName="MAWEM" Organisation="FRA" Gender="M" BirthDate="1984-11-09" Height="183" PlaceofBirth="KOUROU" CountryofBirth="FRA" Nationality="FRA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103666" Parent="9103666" Status="CNF" GivenName="Zelia" FamilyName="Avezou" PassportGivenName="ZELIA" PassportFamilyName="AVEZOU" PrintName="AVEZOU Zelia" PrintInitialName="AVEZOU Z" TVName="Zelia AVEZOU" TVInitialName="Z. AVEZOU" TVFamilyName="AVEZOU" Organisation="FRA" Gender="F" BirthDate="2004-04-10" Height="158" PlaceofBirth="ANTONY" CountryofBirth="FRA" Nationality="FRA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103674" Parent="9103674" Status="CNF" GivenName="Paul" FamilyName="Jenft" PassportGivenName="PAUL" PassportFamilyName="JENFT" PrintName="JENFT Paul" PrintInitialName="JENFT P" TVName="Paul JENFT" TVInitialName="P. JENFT" TVFamilyName="JENFT" Organisation="FRA" Gender="M" BirthDate="2003-06-16" Height="188" PlaceofBirth="GRENOBLE" CountryofBirth="FRA" Nationality="FRA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103677" Parent="9103677" Status="CNF" GivenName="Sam" FamilyName="Avezou" PassportGivenName="SAM" PassportFamilyName="AVEZOU" PrintName="AVEZOU Sam" PrintInitialName="AVEZOU S" TVName="Sam AVEZOU" TVInitialName="S. AVEZOU" TVFamilyName="AVEZOU" Organisation="FRA" Gender="M" BirthDate="2001-03-22" Height="170" PlaceofBirth="CHATENAY-MALABRY" CountryofBirth="FRA" Nationality="FRA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103685" Parent="9103685" Status="CNF" GivenName="Capucine" FamilyName="Viglione" PassportGivenName="CAPUCINE" PassportFamilyName="VIGLIONE" PrintName="VIGLIONE Capucine" PrintInitialName="VIGLIONE C" TVName="Capucine VIGLIONE" TVInitialName="C. VIGLIONE" TVFamilyName="VIGLIONE" Organisation="FRA" Gender="F" BirthDate="2002-12-09" Height="170" PlaceofBirth="MARSEILLE" CountryofBirth="FRA" Nationality="FRA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103688" Parent="9103688" Status="CNF" GivenName="Manon" FamilyName="Lebon" PassportGivenName="MANON" PassportFamilyName="LEBON" PrintName="LEBON Manon" PrintInitialName="LEBON M" TVName="Manon LEBON" TVInitialName="M. LEBON" TVFamilyName="LEBON" Organisation="FRA" Gender="F" BirthDate="2005-03-14" Height="168" PlaceofBirth="SAINT-PIERRE" CountryofBirth="FRA" Nationality="FRA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103695" Parent="9103695" Status="CNF" GivenName="Yuetong" FamilyName="Zhang" PassportGivenName="YUETONG" PassportFamilyName="ZHANG" PrintName="ZHANG Yuetong" PrintInitialName="ZHANG Y" TVName="ZHANG Yuetong" TVInitialName="ZHANG Y." TVFamilyName="ZHANG" Organisation="CHN" Gender="F" BirthDate="2003-02-22" Height="161" PlaceofBirth="GUANGDONG" CountryofBirth="CHN" PlaceofResidence="BEIJING" CountryofResidence="CHN" Nationality="CHN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103696" Parent="9103696" Status="CNF" GivenName="Yufei" FamilyName="Pan" PassportGivenName="YUFEI" PassportFamilyName="PAN" PrintName="PAN Yufei" PrintInitialName="PAN Y" TVName="PAN Yufei" TVInitialName="PAN Y." TVFamilyName="PAN" Organisation="CHN" Gender="M" BirthDate="2000-06-23" Height="173" PlaceofBirth="GUANGDONG" CountryofBirth="CHN" Nationality="CHN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103697" Parent="9103697" Status="CNF" GivenName="Zhilu" FamilyName="Luo" PassportGivenName="ZHILU" PassportFamilyName="LUO" PrintName="LUO Zhilu" PrintInitialName="LUO Z" TVName="LUO Zhilu" TVInitialName="LUO Z." TVFamilyName="LUO" Organisation="CHN" Gender="F" BirthDate="2006-01-11" Height="161" PlaceofBirth="BEIJING" CountryofBirth="CHN" PlaceofResidence="BEIJING" CountryofResidence="CHN" Nationality="CHN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103698" Parent="9103698" Status="CNF" GivenName="Jinbao" FamilyName="Long" PassportGivenName="JINBAO" PassportFamilyName="LONG" PrintName="LONG Jinbao" PrintInitialName="LONG J" TVName="LONG Jinbao" TVInitialName="LONG J." TVFamilyName="LONG" Organisation="CHN" Gender="M" BirthDate="2000-11-08" Height="169" PlaceofBirth="HUNAN" CountryofBirth="CHN" PlaceofResidence="BEIJING" CountryofResidence="CHN" Nationality="CHN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103699" Parent="9103699" Status="CNF" GivenName="Peng" FamilyName="Wu" PassportGivenName="PENG" PassportFamilyName="WU" PrintName="WU Peng" PrintInitialName="WU P" TVName="WU Peng" TVInitialName="WU P." TVFamilyName="WU" Organisation="CHN" Gender="M" BirthDate="2002-10-15" Height="172" PlaceofBirth="HUNAN" CountryofBirth="CHN" PlaceofResidence="BEIJING" CountryofResidence="CHN" Nationality="CHN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103700" Parent="9103700" Status="CNF" GivenName="Yafei" FamilyName="Zhou" PassportGivenName="YAFEI" PassportFamilyName="ZHOU" PrintName="ZHOU Yafei" PrintInitialName="ZHOU Y" TVName="ZHOU Yafei" TVInitialName="ZHOU Y." TVFamilyName="ZHOU" Organisation="CHN" Gender="F" BirthDate="2004-05-15" Height="156" PlaceofBirth="ZHEJIANG" CountryofBirth="CHN" PlaceofResidence="BEIJING" CountryofResidence="CHN" Nationality="CHN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103702" Parent="9103702" Status="CNF" GivenName="Lijuan" FamilyName="Deng" PassportGivenName="LIJUAN" PassportFamilyName="DENG" PrintName="DENG Lijuan" PrintInitialName="DENG L" TVName="DENG Lijuan" TVInitialName="DENG L." TVFamilyName="DENG" Organisation="CHN" Gender="F" BirthDate="2000-05-12" Height="163" PlaceofBirth="HUNAN" CountryofBirth="CHN" PlaceofResidence="BEIJING" CountryofResidence="CHN" Nationality="CHN" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103915" Parent="9103915" Status="CNF" GivenName="Alberto" FamilyName="Gines Lopez" PassportGivenName="ALBERTO" PassportFamilyName="GINES LOPEZ" PrintName="GINES LOPEZ Alberto" PrintInitialName="GINES LOPEZ A" TVName="Alberto GINES LOPEZ" TVInitialName="A. GINES LOPEZ" TVFamilyName="GINES LOPEZ" Organisation="ESP" Gender="M" BirthDate="2002-10-23" Height="170" PlaceofBirth="CACERES" CountryofBirth="ESP" Nationality="ESP" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9103918" Parent="9103918" Status="CNF" GivenName="Leslie Adriana" FamilyName="Romero Perez" PassportGivenName="LESLIE" PassportFamilyName="ROMERO PEREZ" PrintName="ROMERO PEREZ Leslie Adriana" PrintInitialName="ROMERO PEREZ LA" TVName="Leslie Adriana ROMERO PEREZ" TVInitialName="L.A. ROMERO PEREZ" TVFamilyName="ROMERO PEREZ" Organisation="ESP" Gender="F" BirthDate="1998-03-18" Height="160" PlaceofBirth="SAN JUAN DE LOS MORROS GUARICO" CountryofBirth="VEN" Nationality="ESP" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9104103" Parent="9104103" Status="CNF" GivenName="Adam" FamilyName="Ondra" PassportGivenName="ADAM" PassportFamilyName="ONDRA" PrintName="ONDRA Adam" PrintInitialName="ONDRA A" TVName="Adam ONDRA" TVInitialName="A. ONDRA" TVFamilyName="ONDRA" Organisation="CZE" Gender="M" BirthDate="1993-02-05" Height="185" PlaceofBirth="BRNO" CountryofBirth="CZE" PlaceofResidence="Brno" CountryofResidence="CZE" Nationality="CZE" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9104214" Parent="9104214" Status="CNF" GivenName="Hamish" FamilyName="McArthur" PassportGivenName="HAMISH" PassportFamilyName="MCARTHUR" PrintName="McARTHUR Hamish" PrintInitialName="McARTHUR H" TVName="Hamish McARTHUR" TVInitialName="H. McARTHUR" TVFamilyName="McARTHUR" Organisation="GBR" Gender="M" BirthDate="2002-03-06" Height="182" PlaceofBirth="YORK" CountryofBirth="GBR" Nationality="GBR" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9104215" Parent="9104215" Status="CNF" GivenName="Erin" FamilyName="McNeice" PassportGivenName="ERIN" PassportFamilyName="MCNEICE" PrintName="McNEICE Erin" PrintInitialName="McNEICE E" TVName="Erin McNEICE" TVInitialName="E. McNEICE" TVFamilyName="McNEICE" Organisation="GBR" Gender="F" BirthDate="2004-04-06" Height="167" PlaceofBirth="NORWICH" CountryofBirth="GBR" Nationality="GBR" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9104216" Parent="9104216" Status="CNF" GivenName="Maximillian" FamilyName="Milne" PassportGivenName="MAXIMILLIAN" PassportFamilyName="MILNE" PrintName="MILNE Maximillian" PrintInitialName="MILNE M" TVName="Maximillian MILNE" TVInitialName="M. MILNE" TVFamilyName="MILNE" Organisation="GBR" Gender="M" BirthDate="2000-12-10" PlaceofBirth="ABERDEEN" CountryofBirth="GBR" Nationality="GBR" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9104217" Parent="9104217" Status="CNF" GivenName="James" FamilyName="Pope" PassportGivenName="JAMES" PassportFamilyName="POPE" PrintName="POPE James" PrintInitialName="POPE J" TVName="James POPE" TVInitialName="J. POPE" TVFamilyName="POPE" Organisation="GBR" Gender="M" BirthDate="1998-12-24" PlaceofBirth="CAMDEN" CountryofBirth="GBR" Nationality="GBR" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9104218" Parent="9104218" Status="CNF" GivenName="Toby" FamilyName="Roberts" PassportGivenName="TOBY" PassportFamilyName="ROBERTS" PrintName="ROBERTS Toby" PrintInitialName="ROBERTS T" TVName="Toby ROBERTS" TVInitialName="T. ROBERTS" TVFamilyName="ROBERTS" Organisation="GBR" Gender="M" BirthDate="2005-03-15" Height="174" PlaceofBirth="GUILDFORD" CountryofBirth="GBR" Nationality="GBR" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9104220" Parent="9104220" Status="CNF" GivenName="Molly" FamilyName="Thompson-Smith" PassportGivenName="MOLLY" PassportFamilyName="THOMPSON SMITH" PrintName="THOMPSON-SMITH Molly" PrintInitialName="THOMPSON-SMITH M" TVName="Molly THOMPSON-SMITH" TVInitialName="M. THOMPSON-SMITH" TVFamilyName="THOMPSON-SMITH" Organisation="GBR" Gender="F" BirthDate="1997-11-07" Height="157" PlaceofBirth="LONDON" CountryofBirth="GBR" Nationality="GBR" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9106056" Parent="9106056" Status="CNF" GivenName="Yaroslav" FamilyName="Tkach" PassportGivenName="YAROSLAV" PassportFamilyName="TKACH" PrintName="TKACH Yaroslav" PrintInitialName="TKACH Y" TVName="Yaroslav TKACH" TVInitialName="Y. TKACH" TVFamilyName="TKACH" Organisation="UKR" Gender="M" BirthDate="2001-10-31" Height="182" PlaceofBirth="POLTAVA REGION" CountryofBirth="UKR" Nationality="UKR" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9106057" Parent="9106057" Status="CNF" GivenName="Ievgeniia" FamilyName="Kazbekova" PassportGivenName="IEVGENIIA" PassportFamilyName="KAZBEKOVA" PrintName="KAZBEKOVA Ievgeniia" PrintInitialName="KAZBEKOVA I" TVName="Ievgeniia KAZBEKOVA" TVInitialName="I. KAZBEKOVA" TVFamilyName="KAZBEKOVA" Organisation="UKR" Gender="F" BirthDate="1996-10-15" Height="164" PlaceofBirth="DNIPROPETROVSK" CountryofBirth="UKR" Nationality="UKR" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9106207" Parent="9106207" Status="CNF" GivenName="Reza" FamilyName="Alipour Shenazandifard" PassportGivenName="REZA" PassportFamilyName="ALI POUR SHENAZANDI FARD" PrintName="ALIPOUR SHENAZANDIFARD Reza" PrintInitialName="ALIPOUR SHENAZAND." TVName="Reza ALIPOUR SHENAZANDIFARD" TVInitialName="ALIPOUR SHENAZAND." TVFamilyName="ALIPOUR SHENAZANDIFARD" Organisation="IRI" Gender="M" BirthDate="1994-04-29" Height="170" PlaceofBirth="GHAZVIN" CountryofBirth="IRI" PlaceofResidence="TEHRAN" CountryofResidence="IRI" Nationality="IRI" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9107704" Parent="9107704" Status="CNF" GivenName="Sascha" FamilyName="Lehmann" PassportGivenName="SASCHA" PassportFamilyName="LEHMANN" PrintName="LEHMANN Sascha" PrintInitialName="LEHMANN S" TVName="Sascha LEHMANN" TVInitialName="S. LEHMANN" TVFamilyName="LEHMANN" Organisation="SUI" Gender="M" BirthDate="1998-02-03" Height="172" PlaceofBirth="LYSSACH BE" CountryofBirth="SUI" Nationality="SUI" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9108113" Parent="9108113" Status="CNF" GivenName="Campbell" FamilyName="Harrison" PassportGivenName="CAMPBELL" PassportFamilyName="HARRISON" PrintName="HARRISON Campbell" PrintInitialName="HARRISON C" TVName="Campbell HARRISON" TVInitialName="C. HARRISON" TVFamilyName="HARRISON" Organisation="AUS" Gender="M" BirthDate="1997-06-28" Height="182" PlaceofBirth="DANDENONG" CountryofBirth="AUS" Nationality="AUS" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9108117" Parent="9108117" Status="CNF" GivenName="Oceania" FamilyName="Mackenzie" PassportGivenName="OCEANIA" PassportFamilyName="MACKENZIE" PrintName="MACKENZIE Oceania" PrintInitialName="MACKENZIE O" TVName="Oceania MACKENZIE" TVInitialName="O. MACKENZIE" TVFamilyName="MACKENZIE" Organisation="AUS" Gender="F" BirthDate="2002-07-11" Height="173" PlaceofBirth="HEIDELBERG GERMANY" CountryofBirth="GER" Nationality="AUS" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9108268" Parent="9108268" Status="CNF" GivenName="Aniya" FamilyName="Holder" PassportGivenName="ANIYA" PassportFamilyName="HOLDER" PrintName="HOLDER Aniya" PrintInitialName="HOLDER A" TVName="Aniya HOLDER" TVInitialName="A. HOLDER" TVFamilyName="HOLDER" Organisation="RSA" Gender="F" BirthDate="2001-08-03" Height="175" PlaceofBirth="SOUTH AFRICA" CountryofBirth="RSA" PlaceofResidence="GQEBERHA" CountryofResidence="RSA" Nationality="RSA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9108270" Parent="9108270" Status="CNF" GivenName="Joshua" FamilyName="Bruyns" PassportGivenName="JOSHUA" PassportFamilyName="BRUYNS" PrintName="BRUYNS Joshua" PrintInitialName="BRUYNS J" TVName="Joshua BRUYNS" TVInitialName="J. BRUYNS" TVFamilyName="BRUYNS" Organisation="RSA" Gender="M" BirthDate="2003-08-01" Height="173" PlaceofBirth="SOUTH AFRICA" CountryofBirth="RSA" Nationality="RSA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9108271" Parent="9108271" Status="CNF" GivenName="Lauren" FamilyName="Mukheibir" PassportGivenName="LAUREN" PassportFamilyName="MUKHEIBIR" PrintName="MUKHEIBIR Lauren" PrintInitialName="MUKHEIBIR L" TVName="Lauren MUKHEIBIR" TVInitialName="L. MUKHEIBIR" TVFamilyName="MUKHEIBIR" Organisation="RSA" Gender="F" BirthDate="2001-10-08" Height="160" PlaceofBirth="SOUTH AFRICA" CountryofBirth="RSA" PlaceofResidence="JOHANNESBURG" CountryofResidence="RSA" Nationality="RSA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+		<Participant Code="9108272" Parent="9108272" Status="CNF" GivenName="Mel" FamilyName="Janse van Rensburg" PassportGivenName="MEL" PassportFamilyName="JANSE VAN RENSBURG" PrintName="JANSE van RENSBURG Mel" PrintInitialName="JANSE van RENSBURG" TVName="Mel JANSE van RENSBURG" TVInitialName="JANSE van RENSBURG" TVFamilyName="JANSE van RENSBURG" Organisation="RSA" Gender="M" BirthDate="2001-09-16" Height="175" PlaceofBirth="SOUTH AFRICA" CountryofBirth="RSA" Nationality="RSA" MainFunctionId="AA01">
+			<Discipline Code="CLB-------------------------------" />
+		</Participant>
+	</Competition>
+</OdfBody>

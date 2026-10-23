@@ -1,3 +1,12 @@
+# CLB — Schedule tile freezes
+
+| Folder | Role |
+|--------|------|
+| [`01_Schedule_Tile_Mixed_Day`](01_Schedule_Tile_Mixed_Day) | Curated mixed “now” (M Speed SF live, Lead medals, Boulder before) |
+| [`All_Events`](All_Events) | Mega freeze: **M Speed / M Boulder → unofficial medals**, **W Speed QFNL live**, **M Lead SFNL live** — see [All_Events/README.md](All_Events/README.md) |
+
+---
+
 # CLB — Schedule tile freeze (mixed day)
 
 **LogicalDate:** `2026-09-09` (same day as FBL `01_Schedule_Tile_Mid_Group`)  

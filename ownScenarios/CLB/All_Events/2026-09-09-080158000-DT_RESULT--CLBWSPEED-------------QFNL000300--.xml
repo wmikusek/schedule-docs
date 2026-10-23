@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OdfBody CompetitionCode="OG2028-ITL" DocumentCode="CLBWSPEED-------------QFNL000300--" DocumentType="DT_RESULT" ResultStatus="START_LIST" Version="2" FeedFlag="T" TimeStamp="2026-06-24T13:39:06.828+02:00" LogicalDate="2026-06-24" Source="LCTCLB1">
+	<Competition Gen="OG2028-GEN-5.0" Sport="OG2028-CLB-0.2" Codes="OG2028-CC-1.2.0">
+		<ExtendedInfos>
+			<SportDescription DisciplineName="Climbing" EventName="Women's Speed" Gender="W" SubEventName="Quarterfinal 3" />
+			<VenueDescription Venue="LCT" VenueName="LB Climbing Theater" Location="CL3" LocationName="Speed" />
+		</ExtendedInfos>
+		<Result SortOrder="1" StartOrder="1" StartSortOrder="1">
+			<Competitor Code="9103321" Type="A" Organisation="POL">
+				<Composition>
+					<Athlete Order="1" Code="9103321" Bib="11">
+						<Description GivenName="Aleksandra" FamilyName="Kalucka" Gender="F" Organisation="POL" BirthDate="2001-12-25" />
+						<EventUnitEntry Type="EUE" Code="QUAL_RANK" Value="1" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+		<Result SortOrder="2" StartOrder="2" StartSortOrder="2">
+			<Competitor Code="9103700" Type="A" Organisation="CHN">
+				<Composition>
+					<Athlete Order="1" Code="9103700" Bib="8">
+						<Description GivenName="Yafei" FamilyName="Zhou" Gender="F" Organisation="CHN" BirthDate="2004-05-15" />
+						<EventUnitEntry Type="EUE" Code="QUAL_RANK" Value="6" />
+					</Athlete>
+				</Composition>
+			</Competitor>
+		</Result>
+	</Competition>
+</OdfBody>
